@@ -14,9 +14,10 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://charlenemckeown.com"),
   title: {
-    default: "PhotoFlow",
-    template: "%s — PhotoFlow",
+    default: "Charlene McKeown Photography",
+    template: "%s — Charlene McKeown Photography",
   },
   description: "A photography portfolio",
 };
@@ -38,7 +39,7 @@ export default function RootLayout({
               href="/"
               className="text-xl font-semibold tracking-tight hover:opacity-80 transition-opacity"
             >
-              PhotoFlow
+              Charlene McKeown Photography
             </Link>
           </nav>
         </header>
@@ -47,7 +48,7 @@ export default function RootLayout({
 
         <footer className="border-t border-neutral-200 dark:border-neutral-800">
           <div className="mx-auto max-w-5xl px-6 py-6 text-sm text-neutral-500">
-            &copy; {new Date().getFullYear()} PhotoFlow
+            &copy; {new Date().getFullYear()} Charlene McKeown Photography
           </div>
         </footer>
       </body>
