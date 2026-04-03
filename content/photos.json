@@ -73,26 +73,6 @@
   ],
   "photos": [
     {
-      "id": "p6190579",
-      "albumSlug": "birds",
-      "filename": "P6190579.jpg",
-      "r2Key": "birds/p6190579",
-      "title": "",
-      "description": "",
-      "exif": {
-        "camera": "OLYMPUS CORPORATION E-M10MarkII",
-        "lens": "OLYMPUS M.75-300mm F4.8-6.7 II",
-        "focalLength": "300mm",
-        "aperture": "f/6.7",
-        "shutter": "1/250",
-        "iso": 200
-      },
-      "blurDataURL": "data:image/webp;base64,UklGRn4AAABXRUJQVlA4IHIAAABwBACdASoUABcAP3Gqz100rKokqAqqkC4JQBdgARz2PJzt/m/In0avZs5FAADfS/Xjrt4GDvAYpaxfEBx8WUR4qifax6iZYBzR3siG3elGXZIgvAXk6IjvCqx6t2uWusRrnJGRoiSRgp1/ROuGEjIAAAA=",
-      "width": 811,
-      "height": 948,
-      "dateTaken": "2022-06-19T11:53:10.000Z"
-    },
-    {
       "id": "dscf1515",
       "albumSlug": "birds",
       "filename": "DSCF1515.jpg",
