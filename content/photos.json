@@ -1,0 +1,56 @@
+{
+  "albums": [
+    {
+      "slug": "cats",
+      "title": "Cats",
+      "coverPhoto": "dscf0299",
+      "photoCount": 2,
+      "dateRange": {
+        "from": "2025-12-30T15:40:10.000Z",
+        "to": "2025-12-30T15:41:50.000Z"
+      }
+    }
+  ],
+  "photos": [
+    {
+      "id": "dscf0299",
+      "albumSlug": "cats",
+      "filename": "DSCF0299.jpg",
+      "r2Key": "cats/dscf0299",
+      "title": "",
+      "description": "",
+      "exif": {
+        "camera": "FUJIFILM X-T5",
+        "lens": "XF16-50mmF2.8-4.8 R LM WR",
+        "focalLength": "37.4mm",
+        "aperture": "f/4.1",
+        "shutter": "1/80",
+        "iso": 250
+      },
+      "blurDataURL": "data:image/webp;base64,UklGRlwAAABXRUJQVlA4IFAAAACwAwCdASoUAA0AP3Ggxlk0q6gjsAgCkC4JQBOmUABMTQHHYq3CEAD9za8xSlITqEvgZ43FkDI6ylCqAapWY1tAbjk5ufiVCZ2HuTl1/geAAA==",
+      "width": 6392,
+      "height": 4261,
+      "dateTaken": "2025-12-30T15:40:10.000Z"
+    },
+    {
+      "id": "dscf0303",
+      "albumSlug": "cats",
+      "filename": "DSCF0303.jpg",
+      "r2Key": "cats/dscf0303",
+      "title": "",
+      "description": "",
+      "exif": {
+        "camera": "FUJIFILM X-T5",
+        "lens": "XF16-50mmF2.8-4.8 R LM WR",
+        "focalLength": "50mm",
+        "aperture": "f/4.8",
+        "shutter": "1/170",
+        "iso": 1600
+      },
+      "blurDataURL": "data:image/webp;base64,UklGRlgAAABXRUJQVlA4IEwAAACQAwCdASoUAA0AP3Ggxli0q6ejsAgCkC4JZQAAKusSZpMFQocAAO3pG1NGMvxuwu9b8Rgt+YkMk0Dm0Ar3iyfPfn941gQnp+/+nRwA",
+      "width": 6895,
+      "height": 4597,
+      "dateTaken": "2025-12-30T15:41:50.000Z"
+    }
+  ]
+}
