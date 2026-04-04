@@ -813,26 +813,6 @@
       "dateTaken": "2026-01-25T10:28:14.000Z"
     },
     {
-      "id": "20260125-dscf0552",
-      "albumSlug": "marrakech",
-      "filename": "20260125-DSCF0552.jpg",
-      "r2Key": "marrakech/20260125-dscf0552",
-      "title": "",
-      "description": "",
-      "exif": {
-        "camera": "FUJIFILM X-T5",
-        "lens": "XF16-50mmF2.8-4.8 R LM WR",
-        "focalLength": "16mm",
-        "aperture": "f/7.1",
-        "shutter": "1/105",
-        "iso": 320
-      },
-      "blurDataURL": "data:image/webp;base64,UklGRngAAABXRUJQVlA4IGwAAACwBACdASoUAB4AP3Gsy120rSikqAqqkC4JYwDGfDCdwvAOzO4v0qtZiCGnBem8APxcH5k2276F5yRCfE3KHwDJErdjol/jJ9w9RP8rznijNJOTXTf4JktL18SYhAqZ59YXs1EDCQohUc8gAAA=",
-      "width": 3208,
-      "height": 4812,
-      "dateTaken": "2026-01-25T11:41:24.000Z"
-    },
-    {
       "id": "dscf0563-1",
       "albumSlug": "marrakech",
       "filename": "DSCF0563(1).jpg",
@@ -953,46 +933,6 @@
       "dateTaken": "2026-01-27T09:30:40.000Z"
     },
     {
-      "id": "20260127-dscf0705",
-      "albumSlug": "marrakech",
-      "filename": "20260127-DSCF0705.jpg",
-      "r2Key": "marrakech/20260127-dscf0705",
-      "title": "",
-      "description": "",
-      "exif": {
-        "camera": "FUJIFILM X-T5",
-        "lens": "XF16-50mmF2.8-4.8 R LM WR",
-        "focalLength": "16mm",
-        "aperture": "f/5",
-        "shutter": "1/75",
-        "iso": 1600
-      },
-      "blurDataURL": "data:image/webp;base64,UklGRloAAABXRUJQVlA4IE4AAABQAwCdASoUAA0AP3Ggxli0q6ejsAgCkC4JQBS1gtyNDpAhYAD8bY8PShN9kh+VPp9dq6p7fmcjjZB580mg/8eH3kBHkVQJKLb0IYgAAAA=",
-      "width": 7728,
-      "height": 5152,
-      "dateTaken": "2026-01-27T09:32:06.000Z"
-    },
-    {
-      "id": "20260127-dscf0726",
-      "albumSlug": "marrakech",
-      "filename": "20260127-DSCF0726.jpg",
-      "r2Key": "marrakech/20260127-dscf0726",
-      "title": "",
-      "description": "",
-      "exif": {
-        "camera": "FUJIFILM X-T5",
-        "lens": "XF16-50mmF2.8-4.8 R LM WR",
-        "focalLength": "23.4mm",
-        "aperture": "f/6.4",
-        "shutter": "1/350",
-        "iso": 160
-      },
-      "blurDataURL": "data:image/webp;base64,UklGRpAAAABXRUJQVlA4IIQAAADQAwCdASoUAB4AP3GgxVi0q6ejsAgCkC4JQBjPgSCKDUYg5Ucv4AAA7o+rs5ColuS2fgMpNdPjIWVJvWUIzBduOsSfZC7uwRVL0TZbqDKGBFIBbG9zz66MDS7EMAGneJ0U9JQy3Mu5/LxaoV/nPnbXtE8KwHEmGNXiWAeT65/CpbgAAAA=",
-      "width": 5152,
-      "height": 7728,
-      "dateTaken": "2026-01-27T09:42:51.000Z"
-    },
-    {
       "id": "20260127-dscf0748",
       "albumSlug": "marrakech",
       "filename": "20260127-DSCF0748.jpg",
@@ -1071,26 +1011,6 @@
       "width": 7728,
       "height": 5152,
       "dateTaken": "2026-01-27T10:02:53.000Z"
-    },
-    {
-      "id": "20260127-dscf0790",
-      "albumSlug": "marrakech",
-      "filename": "20260127-DSCF0790.jpg",
-      "r2Key": "marrakech/20260127-dscf0790",
-      "title": "",
-      "description": "",
-      "exif": {
-        "camera": "FUJIFILM X-T5",
-        "lens": "XF16-50mmF2.8-4.8 R LM WR",
-        "focalLength": "20.2mm",
-        "aperture": "f/7.1",
-        "shutter": "1/150",
-        "iso": 1250
-      },
-      "blurDataURL": "data:image/webp;base64,UklGRnIAAABXRUJQVlA4IGYAAADwAwCdASoUAA0AP3Ggxlk0q6ejsAgCkC4JZgAAUOxpLs0uH8H0tOIAAPzc6SKBjuIv5XUKQLfCXhIrwuwNgwlHl1Pvn8jcwuHSlfhW4fFL6+g66L79QJaEhfz6Zfur3hSGlwyWgAA=",
-      "width": 7728,
-      "height": 5152,
-      "dateTaken": "2026-01-27T10:06:37.000Z"
     },
     {
       "id": "20260127-dscf0793",
@@ -1173,46 +1093,6 @@
       "dateTaken": "2026-01-27T11:16:52.000Z"
     },
     {
-      "id": "20260128-dscf0862",
-      "albumSlug": "marrakech",
-      "filename": "20260128-DSCF0862.jpg",
-      "r2Key": "marrakech/20260128-dscf0862",
-      "title": "",
-      "description": "",
-      "exif": {
-        "camera": "FUJIFILM X-T5",
-        "lens": "XF16-50mmF2.8-4.8 R LM WR",
-        "focalLength": "17.5mm",
-        "aperture": "f/4",
-        "shutter": "1/850",
-        "iso": 2000
-      },
-      "blurDataURL": "data:image/webp;base64,UklGRmIAAABXRUJQVlA4IFYAAABQAwCdASoUAA0AP3Ggxli0q6ejsAgCkC4JZgAANe/GO+56WAD4WvW8ju/sJj80S/jaNS9nGT5b/0Q9zrC5FW5N4CMPKZpM8d0FsjwNu4s/7k6Q0KAAAA==",
-      "width": 6794,
-      "height": 4529,
-      "dateTaken": "2026-01-28T08:36:45.000Z"
-    },
-    {
-      "id": "20260128-dscf0869",
-      "albumSlug": "marrakech",
-      "filename": "20260128-DSCF0869.jpg",
-      "r2Key": "marrakech/20260128-dscf0869",
-      "title": "",
-      "description": "",
-      "exif": {
-        "camera": "FUJIFILM X-T5",
-        "lens": "XF16-50mmF2.8-4.8 R LM WR",
-        "focalLength": "16mm",
-        "aperture": "f/7.1",
-        "shutter": "1/210",
-        "iso": 1000
-      },
-      "blurDataURL": "data:image/webp;base64,UklGRqYAAABXRUJQVlA4IJoAAAAwBQCdASoUAB4AP3Gqyl20rKgkqAqqkC4JYgC06A/TZHKnHr8kB6qCQrI0HVkIbmzCwAD+N5/3bk/Lx2TeBi9yy0iNNkTU8UKail9bRU8suxDgGU0K4tXgOT0FQXtl8+/DzZ+jj8BpkmiK9FHYylA7Ud/oI+g8Y3QCmo3eqIGZDNnM5wmqnCaABUFMDEGkNjv2Pt9YQkVDmAAA",
-      "width": 5152,
-      "height": 7728,
-      "dateTaken": "2026-01-28T08:37:33.000Z"
-    },
-    {
       "id": "20260128-dscf0876",
       "albumSlug": "marrakech",
       "filename": "20260128-DSCF0876.jpg",
@@ -1293,26 +1173,6 @@
       "dateTaken": "2026-01-28T09:36:07.000Z"
     },
     {
-      "id": "20260128-dscf0910",
-      "albumSlug": "marrakech",
-      "filename": "20260128-DSCF0910.jpg",
-      "r2Key": "marrakech/20260128-dscf0910",
-      "title": "",
-      "description": "",
-      "exif": {
-        "camera": "FUJIFILM X-T5",
-        "lens": "XF16-50mmF2.8-4.8 R LM WR",
-        "focalLength": "16mm",
-        "aperture": "f/4.5",
-        "shutter": "1/80",
-        "iso": 400
-      },
-      "blurDataURL": "data:image/webp;base64,UklGRmAAAABXRUJQVlA4IFQAAABQAwCdASoUAA0AP3Gixlk0rCejsAgCkC4JZQAAP83clLG0QAD+A8IrtFO5Ybfac9p8WFg622uzMklavHmSWv2L2yEGjsJrJC/HAVPRYd7QyUJgAAA=",
-      "width": 7728,
-      "height": 5152,
-      "dateTaken": "2026-01-28T09:36:07.000Z"
-    },
-    {
       "id": "20260128-dscf0925",
       "albumSlug": "marrakech",
       "filename": "20260128-DSCF0925.jpg",
@@ -1333,26 +1193,6 @@
       "dateTaken": "2026-01-28T09:40:53.000Z"
     },
     {
-      "id": "20260128-dscf0931",
-      "albumSlug": "marrakech",
-      "filename": "20260128-DSCF0931.jpg",
-      "r2Key": "marrakech/20260128-dscf0931",
-      "title": "",
-      "description": "",
-      "exif": {
-        "camera": "FUJIFILM X-T5",
-        "lens": "XF16-50mmF2.8-4.8 R LM WR",
-        "focalLength": "19.6mm",
-        "aperture": "f/16",
-        "shutter": "1/55",
-        "iso": 250
-      },
-      "blurDataURL": "data:image/webp;base64,UklGRmgAAABXRUJQVlA4IFwAAABQAwCdASoUAA0AP3Ggxli0q6ejsAgCkC4JYwAAOTDuSe5DsADeQ3KwFjaqsju/2qNjhrNHqo45tgKvIQB9QSKG2P+o9A6vBy1IdDNQBAms6yRuYCxc4FyQ/+MAAA==",
-      "width": 7728,
-      "height": 5152,
-      "dateTaken": "2026-01-28T10:13:50.000Z"
-    },
-    {
       "id": "20260129-dscf0956",
       "albumSlug": "marrakech",
       "filename": "20260129-DSCF0956.jpg",
@@ -1371,46 +1211,6 @@
       "width": 5152,
       "height": 7728,
       "dateTaken": "2026-01-29T08:49:09.000Z"
-    },
-    {
-      "id": "20260129-dscf0961",
-      "albumSlug": "marrakech",
-      "filename": "20260129-DSCF0961.jpg",
-      "r2Key": "marrakech/20260129-dscf0961",
-      "title": "",
-      "description": "",
-      "exif": {
-        "camera": "FUJIFILM X-T5",
-        "lens": "XF16-50mmF2.8-4.8 R LM WR",
-        "focalLength": "16mm",
-        "aperture": "f/8",
-        "shutter": "1/70",
-        "iso": 800
-      },
-      "blurDataURL": "data:image/webp;base64,UklGRlwAAABXRUJQVlA4IFAAAACwAwCdASoUAA0AP3Ggxli0q6ejsAgCkC4JZQDG9BJv6DTVZN72iAD8WogoQvfR64C4gLdBwjS2O+8Ba5R+hGQfj5nY3JtumhvVU7JorwAAAA==",
-      "width": 7728,
-      "height": 5152,
-      "dateTaken": "2026-01-29T08:49:49.000Z"
-    },
-    {
-      "id": "20260129-dscf0962",
-      "albumSlug": "marrakech",
-      "filename": "20260129-DSCF0962.jpg",
-      "r2Key": "marrakech/20260129-dscf0962",
-      "title": "",
-      "description": "",
-      "exif": {
-        "camera": "FUJIFILM X-T5",
-        "lens": "XF16-50mmF2.8-4.8 R LM WR",
-        "focalLength": "16mm",
-        "aperture": "f/8",
-        "shutter": "1/75",
-        "iso": 800
-      },
-      "blurDataURL": "data:image/webp;base64,UklGRlwAAABXRUJQVlA4IFAAAACQAwCdASoUAA0AP3Gixlk0rCejsAgCkC4JZQAALGg7JXAz5L+wAPxaiCulcC/PXa0n7Q7mc3SK+8TZj0nZiuC7gffqJW+Mm5xm6F981xwAAA==",
-      "width": 7728,
-      "height": 5152,
-      "dateTaken": "2026-01-29T08:49:50.000Z"
     },
     {
       "id": "20260129-dscf0963",
