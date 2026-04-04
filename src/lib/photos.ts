@@ -47,7 +47,14 @@ export function getAlbum(slug: string): Album | undefined {
 }
 
 export function getPhotosByAlbum(albumSlug: string): Photo[] {
-  return manifest.photos.filter((p) => p.albumSlug === albumSlug);
+  return manifest.photos
+    .filter((p) => p.albumSlug === albumSlug)
+    .sort((a, b) => {
+      if (!a.dateTaken && !b.dateTaken) return 0;
+      if (!a.dateTaken) return 1;
+      if (!b.dateTaken) return -1;
+      return new Date(b.dateTaken).getTime() - new Date(a.dateTaken).getTime();
+    });
 }
 
 export function getPhoto(
