@@ -57,7 +57,13 @@ export default function Home() {
                 <p className="text-sm text-neutral-500 mt-1">
                   {album.photoCount} photo{album.photoCount !== 1 ? "s" : ""}
                   {album.dateRange.from && (
-                    <> &middot; {formatDate(album.dateRange.from)}</>
+                    <>
+                      {" "}&middot;{" "}
+                      {formatDate(album.dateRange.from)}
+                      {album.dateRange.to &&
+                        album.dateRange.to !== album.dateRange.from &&
+                        ` — ${formatDate(album.dateRange.to)}`}
+                    </>
                   )}
                 </p>
               </div>
