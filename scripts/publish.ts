@@ -89,6 +89,7 @@ const R2_BUCKET_NAME = process.env.R2_BUCKET_NAME!;
 const R2_PUBLIC_URL = process.env.R2_PUBLIC_URL!;
 
 const MANIFEST_PATH = path.resolve(process.cwd(), "content/photos.json");
+const FORCE = process.argv.includes("--force");
 
 // ---------------------------------------------------------------------------
 // Helpers
@@ -233,8 +234,7 @@ async function processPhoto(
   const existing = manifest.photos.find(
     (p) => p.albumSlug === albumSlug && p.filename === filename
   );
-  if (existing) {
-    const srcStat = fs.statSync(filePath);
+  if (existing && !FORCE) {
     // Check if the first variant exists in R2 as a proxy for "already uploaded"
     const firstKey = `${r2Key}-320.webp`;
     if (await r2KeyExists(s3, firstKey)) {
