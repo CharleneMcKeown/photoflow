@@ -76,7 +76,7 @@ function loadEnv() {
 
 loadEnv();
 
-const SIZES = [320, 640, 1024, 1920] as const;
+const SIZES = [320, 640, 1024, 1920, 2560] as const;
 const FORMATS = ["webp", "jpg"] as const;
 
 const PHOTOS_SOURCE_DIR = (process.env.PHOTOS_SOURCE_DIR || "~/Pictures/saved")
@@ -272,17 +272,18 @@ async function processPhoto(
       const contentType = format === "webp" ? "image/webp" : "image/jpeg";
 
       let buffer: Buffer;
+      const hiRes = size >= 1920;
       if (format === "webp") {
         buffer = await sharp(filePath)
           .rotate()
           .resize(size, resizedHeight)
-          .webp({ quality: 80 })
+          .webp({ quality: hiRes ? 85 : 80 })
           .toBuffer();
       } else {
         buffer = await sharp(filePath)
           .rotate()
           .resize(size, resizedHeight)
-          .jpeg({ quality: 75 })
+          .jpeg({ quality: hiRes ? 80 : 75 })
           .toBuffer();
       }
 

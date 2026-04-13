@@ -20,7 +20,7 @@ export default function ResponsivePhoto({
   width,
   height,
   blurDataURL,
-  sizes = "(max-width: 640px) 100vw, (max-width: 1024px) 80vw, 1024px",
+  sizes = "(max-width: 640px) 100vw, (max-width: 1024px) 80vw, 896px",
   priority = false,
   className = "",
 }: ResponsivePhotoProps) {

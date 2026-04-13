@@ -1,6 +1,6 @@
 const R2_PUBLIC_URL = process.env.NEXT_PUBLIC_R2_URL || "";
 
-const SIZES = [320, 640, 1024, 1920] as const;
+const SIZES = [320, 640, 1024, 1920, 2560] as const;
 
 export type ImageSize = (typeof SIZES)[number];
 
