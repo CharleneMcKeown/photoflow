@@ -40,10 +40,11 @@ export default function ResponsivePhoto({
       )}
 
       <picture>
+        <source type="image/avif" srcSet={getSrcSet(r2Key, "avif")} sizes={sizes} />
         <source type="image/webp" srcSet={getSrcSet(r2Key, "webp")} sizes={sizes} />
         <source type="image/jpeg" srcSet={getSrcSet(r2Key, "jpg")} sizes={sizes} />
         <img
-          src={getImageUrl(r2Key, 1024, "jpg")}
+          src={getImageUrl(r2Key, 1536, "jpg")}
           alt={alt}
           width={width}
           height={height}

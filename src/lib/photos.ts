@@ -21,6 +21,7 @@ export interface Photo {
   width: number;
   height: number;
   dateTaken: string | null;
+  processingVersion?: number;
 }
 
 export interface Album {

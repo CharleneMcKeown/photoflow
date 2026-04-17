@@ -79,6 +79,7 @@ export default async function PhotoPage({
           width={photo.width}
           height={photo.height}
           blurDataURL={photo.blurDataURL}
+          sizes="(max-width: 896px) 100vw, 896px"
           priority
         />
       </div>
