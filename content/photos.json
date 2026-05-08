@@ -3,38 +3,38 @@
     {
       "slug": "birds",
       "title": "Birds",
-      "coverPhoto": "p6190579",
-      "photoCount": 4,
+      "coverPhoto": "dscf1515",
+      "photoCount": 3,
       "dateRange": {
-        "from": "2022-06-19T11:53:10.000Z",
+        "from": "2026-03-11T17:26:42.000Z",
         "to": "2026-03-22T10:17:55.000Z"
       }
     },
     {
       "slug": "cats",
       "title": "Cats",
-      "coverPhoto": "dscf0299",
-      "photoCount": 23,
+      "coverPhoto": "bigby-jones",
+      "photoCount": 30,
       "dateRange": {
         "from": "2016-09-11T13:37:44.000Z",
-        "to": "2026-03-11T17:33:54.000Z"
+        "to": "2026-05-08T04:55:54.000Z"
       }
     },
     {
       "slug": "kites",
       "title": "Kites",
       "coverPhoto": "p5020527",
-      "photoCount": 9,
+      "photoCount": 10,
       "dateRange": {
         "from": "2019-05-02T13:12:40.000Z",
-        "to": "2026-03-22T15:23:14.000Z"
+        "to": "2026-04-02T14:20:15.000Z"
       }
     },
     {
       "slug": "marrakech",
       "title": "Marrakech",
       "coverPhoto": "20260125-dscf0533",
-      "photoCount": 35,
+      "photoCount": 25,
       "dateRange": {
         "from": "2026-01-25T10:15:39.000Z",
         "to": "2026-01-29T08:55:30.000Z"
@@ -593,6 +593,146 @@
       "dateTaken": "2026-03-11T17:33:54.000Z"
     },
     {
+      "id": "dscf2193",
+      "albumSlug": "cats",
+      "filename": "DSCF2193.jpg",
+      "r2Key": "cats/dscf2193",
+      "title": "",
+      "description": "",
+      "exif": {
+        "camera": "FUJIFILM X-T5",
+        "lens": "XF70-300mmF4-5.6 R LM OIS WR",
+        "focalLength": "70mm",
+        "aperture": "f/5.6",
+        "shutter": "1/250",
+        "iso": 800
+      },
+      "blurDataURL": "data:image/webp;base64,UklGRl4AAABXRUJQVlA4IFIAAABwAwCdASoUAA0AP3Ggxli0q6ejsAgCkC4JZACdABXo9Li7BAAA+gnDTDA/3CrpYqgxDRgS9sSkBdtydRIi67PLNIrPbx62oUJVD6l8cQO52QAA",
+      "width": 7728,
+      "height": 5152,
+      "dateTaken": "2026-04-30T17:42:26.000Z"
+    },
+    {
+      "id": "dscf2223-copy",
+      "albumSlug": "cats",
+      "filename": "DSCF2223 copy.jpg",
+      "r2Key": "cats/dscf2223-copy",
+      "title": "",
+      "description": "",
+      "exif": {
+        "camera": "FUJIFILM X-T5",
+        "lens": "XF70-300mmF4-5.6 R LM OIS WR",
+        "focalLength": "142.2mm",
+        "aperture": "f/5.6",
+        "shutter": "1/210",
+        "iso": 1000
+      },
+      "blurDataURL": "data:image/webp;base64,UklGRmQAAABXRUJQVlA4IFgAAAAQBACdASoUAA0AP3Ggxli0q6ejsAgCkC4JYwDKAB9gUqO4/aW/jxTQAAD+2VHoZpcnxBgvbiL0p990M14VhvAOBow2FNWYqnlqf4wzt3p2+U2cmKIqQaAA",
+      "width": 7728,
+      "height": 5152,
+      "dateTaken": "2026-04-30T17:46:25.000Z"
+    },
+    {
+      "id": "dscf2225",
+      "albumSlug": "cats",
+      "filename": "DSCF2225.JPG",
+      "r2Key": "cats/dscf2225",
+      "title": "",
+      "description": "",
+      "exif": {
+        "camera": "FUJIFILM X-T5",
+        "lens": "XF70-300mmF4-5.6 R LM OIS WR",
+        "focalLength": "142.2mm",
+        "aperture": "f/5",
+        "shutter": "1/70",
+        "iso": 1000
+      },
+      "blurDataURL": "data:image/webp;base64,UklGRlwAAABXRUJQVlA4IFAAAACQAwCdASoUAA0AP3Ggxlk0q6ejsAgCkC4JZAC2yBe5Jea3oGEAAP7ZWEr2e3cDJ/lNEY/qJU+OiS4lNQhdk5WVolguCtWQTLbfagKPNQAAAA==",
+      "width": 7728,
+      "height": 5152,
+      "dateTaken": "2026-04-30T17:46:39.000Z"
+    },
+    {
+      "id": "dscf2236",
+      "albumSlug": "cats",
+      "filename": "DSCF2236.JPG",
+      "r2Key": "cats/dscf2236",
+      "title": "",
+      "description": "",
+      "exif": {
+        "camera": "FUJIFILM X-T5",
+        "lens": "XF70-300mmF4-5.6 R LM OIS WR",
+        "focalLength": "127.1mm",
+        "aperture": "f/5.6",
+        "shutter": "1/80",
+        "iso": 320
+      },
+      "blurDataURL": "data:image/webp;base64,UklGRmIAAABXRUJQVlA4IFYAAADwAwCdASoUAA0AP3Ggxlk0q6gjsAgCkC4JQBYdgqsNzk2ijB9qIqWQAP5xYaaTViaOIQXHGKNsF0dGK8lgp3cwFySkJJs3eE9N6MivTh3bFl6Rm4AAAA==",
+      "width": 7728,
+      "height": 5152,
+      "dateTaken": "2026-05-05T15:56:20.000Z"
+    },
+    {
+      "id": "dscf2274-edit",
+      "albumSlug": "cats",
+      "filename": "DSCF2274-Edit.jpg",
+      "r2Key": "cats/dscf2274-edit",
+      "title": "",
+      "description": "",
+      "exif": {
+        "camera": "FUJIFILM X-T5",
+        "lens": "XF33mmF1.4 R LM WR",
+        "focalLength": "33mm",
+        "aperture": "f/8",
+        "shutter": "1/120",
+        "iso": 1600
+      },
+      "blurDataURL": "data:image/webp;base64,UklGRlYAAABXRUJQVlA4IEoAAACQAwCdASoUAA0AP3Ggxli0q6gjsAgCkC4JZQAAPqb5lxpAkwAAAOjAvIPgzeek4jJoaUZj9HTC+5E9uZ9R5W/aTPAQmm8kvAAAAA==",
+      "width": 7563,
+      "height": 5042,
+      "dateTaken": "2026-05-05T18:05:54.000Z"
+    },
+    {
+      "id": "dscf2278-edit",
+      "albumSlug": "cats",
+      "filename": "DSCF2278-Edit.jpg",
+      "r2Key": "cats/dscf2278-edit",
+      "title": "",
+      "description": "",
+      "exif": {
+        "camera": "FUJIFILM X-T5",
+        "lens": "XF33mmF1.4 R LM WR",
+        "focalLength": "33mm",
+        "aperture": "f/8",
+        "shutter": "1/75",
+        "iso": 1250
+      },
+      "blurDataURL": "data:image/webp;base64,UklGRlgAAABXRUJQVlA4IEwAAABwAwCdASoUAA0AP3Gixlk0rCejsAgCkC4JZQAAMd+G+wHUHAAAynPvQRCDwmqfJJYPw3cH+HNKpolV6vsEwNlcTCRVSgvIjsNkJeAA",
+      "width": 7563,
+      "height": 5042,
+      "dateTaken": "2026-05-05T18:07:33.000Z"
+    },
+    {
+      "id": "dscf2300",
+      "albumSlug": "cats",
+      "filename": "DSCF2300.jpg",
+      "r2Key": "cats/dscf2300",
+      "title": "",
+      "description": "",
+      "exif": {
+        "camera": "FUJIFILM X-T5",
+        "lens": "XF33mmF1.4 R LM WR",
+        "focalLength": "33mm",
+        "aperture": "f/4",
+        "shutter": "1/140",
+        "iso": 125
+      },
+      "blurDataURL": "data:image/webp;base64,UklGRnAAAABXRUJQVlA4IGQAAADwBACdASoUAB4AP3GqyVu0rSikMBgIApAuCWcAzBwtFMhSU9CduWy9DWhDv2qqTYAAPCEDO9DGZPoxqJYDEsDv3D2v9dwmA656yZailpTijqZJUx6BgsV32ZBBFzOLe0aYAAAA",
+      "width": 3435,
+      "height": 5152,
+      "dateTaken": "2026-05-08T04:55:54.000Z"
+    },
+    {
       "id": "p5020527",
       "albumSlug": "kites",
       "filename": "P5020527.jpg",
@@ -771,6 +911,26 @@
       "width": 2504,
       "height": 1669,
       "dateTaken": "2026-03-22T15:23:14.000Z"
+    },
+    {
+      "id": "dscf2050",
+      "albumSlug": "kites",
+      "filename": "DSCF2050.jpg",
+      "r2Key": "kites/dscf2050",
+      "title": "",
+      "description": "",
+      "exif": {
+        "camera": "FUJIFILM X-T5",
+        "lens": "XF70-300mmF4-5.6 R LM OIS WR",
+        "focalLength": "300mm",
+        "aperture": "f/8",
+        "shutter": "1/500",
+        "iso": 320
+      },
+      "blurDataURL": "data:image/webp;base64,UklGRlgAAABXRUJQVlA4IEwAAADQAwCdASoUAA0AP3Ggxli0q6ejsAgCkC4JbACdABuLd2plUUlizAAA/e00K8z9OFNqghlh1Z6TupBriI+VGZ6xOXvsr570E+30STAA",
+      "width": 3019,
+      "height": 2013,
+      "dateTaken": "2026-04-02T14:20:15.000Z"
     },
     {
       "id": "20260125-dscf0533",
