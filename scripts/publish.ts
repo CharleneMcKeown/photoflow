@@ -35,6 +35,7 @@ interface Photo {
   width: number;
   height: number;
   dateTaken: string | null;
+  processingVersion: number;
 }
 
 interface Album {
@@ -76,8 +77,15 @@ function loadEnv() {
 
 loadEnv();
 
-const SIZES = [320, 640, 1024, 1920] as const;
-const FORMATS = ["webp", "jpg"] as const;
+const SIZES = [320, 640, 1024, 1536, 2048, 2560, 3840] as const;
+const FORMATS = ["avif", "webp", "jpg"] as const;
+type Format = (typeof FORMATS)[number];
+
+// Bump whenever encoder settings, sizes, formats, or color handling change.
+// On the next publish run, every photo whose manifest entry has a lower
+// processingVersion will be reprocessed and re-uploaded automatically.
+const PROCESSING_VERSION = 2;
+const LARGEST_SIZE = SIZES[SIZES.length - 1];
 
 const PHOTOS_SOURCE_DIR = (process.env.PHOTOS_SOURCE_DIR || "~/Pictures/saved")
   .replace("~", os.homedir());
@@ -127,7 +135,14 @@ function createS3Client(): S3Client {
 
 function readManifest(): Manifest {
   if (fs.existsSync(MANIFEST_PATH)) {
-    return JSON.parse(fs.readFileSync(MANIFEST_PATH, "utf-8"));
+    const parsed = JSON.parse(fs.readFileSync(MANIFEST_PATH, "utf-8")) as Manifest;
+    // Backfill processingVersion for entries created before the field existed.
+    for (const photo of parsed.photos) {
+      if (typeof photo.processingVersion !== "number") {
+        photo.processingVersion = 1;
+      }
+    }
+    return parsed;
   }
   return { albums: [], photos: [] };
 }
@@ -219,6 +234,52 @@ function emptyExif(): PhotoExif {
 // Image processing
 // ---------------------------------------------------------------------------
 
+function contentTypeFor(format: Format): string {
+  switch (format) {
+    case "avif":
+      return "image/avif";
+    case "webp":
+      return "image/webp";
+    case "jpg":
+      return "image/jpeg";
+  }
+}
+
+async function encodeVariant(
+  filePath: string,
+  size: number,
+  resizedHeight: number,
+  format: Format
+): Promise<Buffer> {
+  // Color-managed pipeline: convert wide-gamut sources to sRGB and embed
+  // the sRGB ICC profile so colors render correctly on wide-gamut displays.
+  const pipeline = sharp(filePath)
+    .rotate()
+    .resize(size, resizedHeight)
+    .toColorspace("srgb")
+    .withIccProfile("srgb");
+
+  switch (format) {
+    case "avif":
+      return pipeline
+        .avif({ quality: 55, effort: 4, chromaSubsampling: "4:2:0" })
+        .toBuffer();
+    case "webp":
+      return pipeline
+        .webp({ quality: 82, effort: 5, smartSubsample: true })
+        .toBuffer();
+    case "jpg":
+      return pipeline
+        .jpeg({
+          quality: 84,
+          mozjpeg: true,
+          progressive: true,
+          chromaSubsampling: "4:2:0",
+        })
+        .toBuffer();
+  }
+}
+
 async function processPhoto(
   s3: S3Client,
   filePath: string,
@@ -229,21 +290,28 @@ async function processPhoto(
   const filename = path.basename(filePath);
   const r2Key = `${albumSlug}/${photoId}`;
 
-  // Check if already processed
   const existing = manifest.photos.find(
     (p) => p.albumSlug === albumSlug && p.filename === filename
   );
-  if (existing) {
-    const srcStat = fs.statSync(filePath);
-    // Check if the first variant exists in R2 as a proxy for "already uploaded"
-    const firstKey = `${r2Key}-320.webp`;
-    if (await r2KeyExists(s3, firstKey)) {
-      console.log(`  ⏭  ${filename} (already uploaded)`);
+
+  // Skip only if the manifest entry is at the current processing version
+  // AND the largest configured variant exists in R2 (sanity check that the
+  // upload completed for the current size ladder).
+  if (existing && existing.processingVersion === PROCESSING_VERSION) {
+    const largestKey = `${r2Key}-${LARGEST_SIZE}.${FORMATS[0]}`;
+    if (await r2KeyExists(s3, largestKey)) {
+      console.log(`  ⏭  ${filename} (already uploaded, v${PROCESSING_VERSION})`);
       return existing;
     }
   }
 
-  console.log(`  📷 Processing ${filename}...`);
+  if (existing) {
+    console.log(
+      `  ♻️  Reprocessing ${filename} (v${existing.processingVersion} → v${PROCESSING_VERSION})...`
+    );
+  } else {
+    console.log(`  📷 Processing ${filename}...`);
+  }
 
   const image = sharp(filePath).rotate(); // Auto-rotate from EXIF
   const metadata = await image.metadata();
@@ -253,10 +321,11 @@ async function processPhoto(
   // Extract EXIF
   const { exif, dateTaken } = await extractExif(filePath);
 
-  // Generate blur placeholder (20px wide, WebP, base64)
+  // Generate blur placeholder (20px wide, WebP, base64) — color-managed too.
   const blurBuf = await sharp(filePath)
     .rotate()
     .resize(20, Math.round((height / width) * 20))
+    .toColorspace("srgb")
     .webp({ quality: 10 })
     .toBuffer();
   const blurDataURL = `data:image/webp;base64,${blurBuf.toString("base64")}`;
@@ -269,24 +338,8 @@ async function processPhoto(
 
     for (const format of FORMATS) {
       const key = `${r2Key}-${size}.${format}`;
-      const contentType = format === "webp" ? "image/webp" : "image/jpeg";
-
-      let buffer: Buffer;
-      if (format === "webp") {
-        buffer = await sharp(filePath)
-          .rotate()
-          .resize(size, resizedHeight)
-          .webp({ quality: 80 })
-          .toBuffer();
-      } else {
-        buffer = await sharp(filePath)
-          .rotate()
-          .resize(size, resizedHeight)
-          .jpeg({ quality: 75 })
-          .toBuffer();
-      }
-
-      await uploadToR2(s3, key, buffer, contentType);
+      const buffer = await encodeVariant(filePath, size, resizedHeight, format);
+      await uploadToR2(s3, key, buffer, contentTypeFor(format));
       console.log(`    ✅ Uploaded ${key}`);
     }
   }
@@ -303,6 +356,7 @@ async function processPhoto(
     width,
     height,
     dateTaken,
+    processingVersion: PROCESSING_VERSION,
   };
 }
 

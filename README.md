@@ -17,7 +17,7 @@ Each subfolder becomes an album. When you run the publish script, it:
 
 1. Scans your export folder for new photos
 2. Extracts EXIF data (camera, lens, aperture, shutter speed, ISO)
-3. Generates 4 responsive sizes (320, 640, 1024, 1920px) in WebP + JPEG
+3. Generates 7 responsive sizes (320, 640, 1024, 1536, 2048, 2560, 3840px) in AVIF + WebP + JPEG, with sRGB color management for accurate display on retina/wide-gamut screens
 4. Creates blur placeholders for instant loading
 5. Uploads everything to Cloudflare R2
 6. Updates the photo manifest (`content/photos.json`)
@@ -78,7 +78,7 @@ Export photos from Lightroom into subfolders of your `PHOTOS_SOURCE_DIR`, then:
 npm run publish-photos
 ```
 
-The script is incremental — it skips photos that are already uploaded.
+The script is incremental — it skips photos that are already uploaded at the current processing version. When the encoding pipeline changes (sizes, formats, or quality), bump `PROCESSING_VERSION` in `scripts/publish.ts` and the next run will automatically reprocess and re-upload every existing photo.
 
 ### Build the site
 
