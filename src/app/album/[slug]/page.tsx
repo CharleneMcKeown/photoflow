@@ -83,7 +83,7 @@ export default async function AlbumPage({
                 width={photo.width}
                 height={photo.height}
                 blurDataURL={photo.blurDataURL}
-                sizes="(max-width: 896px) 100vw, 896px"
+                sizes="(max-width: 768px) calc(100vw - 3rem), 720px"
               />
             </Link>
 
