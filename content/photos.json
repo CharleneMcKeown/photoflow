@@ -893,26 +893,6 @@
       "dateTaken": "2026-05-08T04:55:54.000Z"
     },
     {
-      "id": "dscf2442",
-      "albumSlug": "cats",
-      "filename": "DSCF2442.jpg",
-      "r2Key": "cats/dscf2442",
-      "title": "",
-      "description": "",
-      "exif": {
-        "camera": "FUJIFILM X-T5",
-        "lens": "XF16-50mmF2.8-4.8 R LM WR",
-        "focalLength": "16mm",
-        "aperture": "f/7.1",
-        "shutter": "1/1500",
-        "iso": 2000
-      },
-      "blurDataURL": "data:image/webp;base64,UklGRnQAAABXRUJQVlA4IGgAAACwAwCdASoUAA0AP3Ggxli0q6ejsAgCkC4JagDE2Bs1nnm8jiCAYAD+Z8yBcW4QuLtTQwhPThNvnMjEPhhBPF4VUhWMtspwAdd1z1IkhoTUUjNrWYdcqbnA7hzKuzyAKmF0608++0AAAA==",
-      "width": 5743,
-      "height": 3829,
-      "dateTaken": "2026-05-15T14:32:42.000Z"
-    },
-    {
       "id": "dscf2478",
       "albumSlug": "cats",
       "filename": "DSCF2478.jpg",
