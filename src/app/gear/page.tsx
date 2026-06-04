@@ -63,9 +63,7 @@ export default function GearPage() {
     <div className="mx-auto max-w-3xl px-6 py-12">
       <h1 className="text-3xl font-semibold tracking-tight mb-2">My Gear</h1>
       <p className="text-neutral-500 dark:text-neutral-400 mb-10">
-        Here&rsquo;s what&rsquo;s in my camera bag. I believe in investing in
-        glass and getting out more — the best camera is the one you have with
-        you.
+        Here&rsquo;s what&rsquo;s in my camera bag.
       </p>
 
       <div className="space-y-10">
