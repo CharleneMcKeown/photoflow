@@ -9,6 +9,7 @@ import {
   formatDate,
 } from "@/lib/photos";
 import { compositeId, parseCompositeId } from "@/lib/photo-ids";
+import { getFullImageUrl } from "@/lib/r2";
 import ResponsivePhoto from "@/components/ResponsivePhoto";
 
 export const dynamicParams = false;
@@ -79,8 +80,20 @@ export default async function PhotoPage({
           width={photo.width}
           height={photo.height}
           blurDataURL={photo.blurDataURL}
+          sizes="(max-width: 768px) 100vw, (max-width: 1280px) 90vw, 1200px"
           priority
         />
+      </div>
+
+      <div className="mt-4 flex justify-end">
+        <a
+          href={getFullImageUrl(photo.r2Key)}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-sm text-neutral-500 hover:text-neutral-900 dark:hover:text-neutral-200 transition-colors"
+        >
+          View Full Resolution ↗
+        </a>
       </div>
 
       <div className="mt-6">
