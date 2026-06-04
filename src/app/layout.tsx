@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
-import Link from "next/link";
+import Navigation from "@/components/Navigation";
 import "./globals.css";
 
 const geistSans = Geist({
@@ -33,16 +33,7 @@ export default function RootLayout({
       className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
     >
       <body className="min-h-full flex flex-col bg-background text-foreground">
-        <header className="border-b border-neutral-200 dark:border-neutral-800">
-          <nav className="mx-auto max-w-5xl px-6 py-4 flex items-center justify-between">
-            <Link
-              href="/"
-              className="text-xl font-semibold tracking-tight hover:opacity-80 transition-opacity"
-            >
-              Charlene McKeown Photography
-            </Link>
-          </nav>
-        </header>
+        <Navigation />
 
         <main className="flex-1">{children}</main>
 

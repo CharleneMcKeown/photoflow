@@ -3,10 +3,10 @@
     {
       "slug": "birds",
       "title": "Birds",
-      "coverPhoto": "dscf1515",
+      "coverPhoto": "monterey",
       "photoCount": 10,
       "dateRange": {
-        "from": "2026-03-11T17:26:42.000Z",
+        "from": "2017-08-25T15:06:59.000Z",
         "to": "2026-06-02T10:07:09.000Z"
       }
     },
@@ -14,7 +14,7 @@
       "slug": "cats",
       "title": "Cats",
       "coverPhoto": "bigby-jones",
-      "photoCount": 32,
+      "photoCount": 33,
       "dateRange": {
         "from": "2016-09-11T13:37:44.000Z",
         "to": "2026-05-24T18:34:04.000Z"
@@ -63,15 +63,35 @@
     {
       "slug": "usa",
       "title": "Usa",
-      "coverPhoto": "bodie3",
-      "photoCount": 3,
+      "coverPhoto": "rainier-valley-2017",
+      "photoCount": 7,
       "dateRange": {
-        "from": "2017-08-23T09:19:27.000Z",
-        "to": "2017-08-23T10:17:53.000Z"
+        "from": "2017-07-29T15:49:50.000Z",
+        "to": "2017-08-23T10:47:11.000Z"
       }
     }
   ],
   "photos": [
+    {
+      "id": "monterey",
+      "albumSlug": "birds",
+      "filename": "Monterey.jpg",
+      "r2Key": "birds/monterey",
+      "title": "",
+      "description": "",
+      "exif": {
+        "camera": "OLYMPUS CORPORATION E-M10MarkII",
+        "lens": "OLYMPUS M.40-150mm F4.0-5.6 R",
+        "focalLength": "150mm",
+        "aperture": "f/7.1",
+        "shutter": "1/500",
+        "iso": 200
+      },
+      "blurDataURL": "data:image/webp;base64,UklGRkYAAABXRUJQVlA4IDoAAACQAwCdASoUAAsAP3Gix1k0rCgjsAgCkC4JQBOgAmCL0EcRqKwAAFgtn3gyV8fqQtCAoHvssnv1cdAA",
+      "width": 4608,
+      "height": 2592,
+      "dateTaken": "2017-08-25T15:06:59.000Z"
+    },
     {
       "id": "dscf1515",
       "albumSlug": "birds",
@@ -193,26 +213,6 @@
       "dateTaken": "2026-06-02T10:04:51.000Z"
     },
     {
-      "id": "dscf2610",
-      "albumSlug": "birds",
-      "filename": "DSCF2610.jpg",
-      "r2Key": "birds/dscf2610",
-      "title": "",
-      "description": "",
-      "exif": {
-        "camera": "FUJIFILM X-T5",
-        "lens": "XF70-300mmF4-5.6 R LM OIS WR",
-        "focalLength": "300mm",
-        "aperture": "f/8",
-        "shutter": "1/420",
-        "iso": 800
-      },
-      "blurDataURL": "data:image/webp;base64,UklGRnYAAABXRUJQVlA4IGoAAACwAwCdASoUAA0AP3Ggxlk0q6gjsAgCkC4JbADCgBxDlfFuqe/CQAD7FwtQf4XF8nPPJE4UqHbL4lY0kyIjGFGIZX64jC6E+Orfr7XRmxYG1MzZ20IuToj/F4HTwdbPHNCtkjmMC0KvggAA",
-      "width": 2356,
-      "height": 1571,
-      "dateTaken": "2026-06-02T10:06:11.000Z"
-    },
-    {
       "id": "dscf2611",
       "albumSlug": "birds",
       "filename": "DSCF2611.jpg",
@@ -291,6 +291,26 @@
       "width": 4608,
       "height": 3072,
       "dateTaken": "2016-09-11T13:37:44.000Z"
+    },
+    {
+      "id": "harry-45mm-3",
+      "albumSlug": "cats",
+      "filename": "Harry 45mm 3.jpg",
+      "r2Key": "cats/harry-45mm-3",
+      "title": "",
+      "description": "",
+      "exif": {
+        "camera": "OLYMPUS CORPORATION E-M10MarkII",
+        "lens": "OLYMPUS M.45mm F1.8",
+        "focalLength": "45mm",
+        "aperture": "f/1.8",
+        "shutter": "1/100",
+        "iso": 500
+      },
+      "blurDataURL": "data:image/webp;base64,UklGRnAAAABXRUJQVlA4IGQAAABwBACdASoUABEAP3Gqyl40rCgkqAqqkC4JYwDNwBEDJBl3lz36gtTyGyfhgAD+bqM7Y9ACmsU2lqeojXIAHPaS8VrQ9RjRptz1llK4TSuWplYZOi7TxJZcQzfGvHhGD5TNAAAA",
+      "width": 2805,
+      "height": 2374,
+      "dateTaken": "2017-01-30T20:04:57.000Z"
     },
     {
       "id": "harry-45mm-2",
@@ -1793,6 +1813,26 @@
       "dateTaken": "2026-05-09T08:10:27.000Z"
     },
     {
+      "id": "rainier-valley-2017",
+      "albumSlug": "usa",
+      "filename": "Rainier valley 2017.jpg",
+      "r2Key": "usa/rainier-valley-2017",
+      "title": "",
+      "description": "",
+      "exif": {
+        "camera": "OLYMPUS CORPORATION E-M10MarkII",
+        "lens": "OLYMPUS M.14-42mm F3.5-5.6 EZ",
+        "focalLength": "14mm",
+        "aperture": "f/9",
+        "shutter": "1/320",
+        "iso": 200
+      },
+      "blurDataURL": "data:image/webp;base64,UklGRlwAAABXRUJQVlA4IFAAAACQAwCdASoUAAsAP3Gixlk0rCejsAgCkC4JZACdAB7FbhskfBbeAM4VdLgvTZzFM4YYU53n2V/wTAwMxPoG7Fe5P/6Z6gmk6rFZBg8V5AAAAA==",
+      "width": 4608,
+      "height": 2592,
+      "dateTaken": "2017-07-29T15:49:50.000Z"
+    },
+    {
       "id": "bodie3",
       "albumSlug": "usa",
       "filename": "Bodie3.jpg",
@@ -1811,6 +1851,26 @@
       "width": 4608,
       "height": 2592,
       "dateTaken": "2017-08-23T09:19:27.000Z"
+    },
+    {
+      "id": "bodie2",
+      "albumSlug": "usa",
+      "filename": "Bodie2.jpg",
+      "r2Key": "usa/bodie2",
+      "title": "",
+      "description": "",
+      "exif": {
+        "camera": "OLYMPUS CORPORATION E-M10MarkII",
+        "lens": "OLYMPUS M.9-18mm F4.0-5.6",
+        "focalLength": "9mm",
+        "aperture": "f/18",
+        "shutter": "1/80",
+        "iso": 200
+      },
+      "blurDataURL": "data:image/webp;base64,UklGRmoAAABXRUJQVlA4IF4AAAAQBACdASoUAAsAP3Ggxli0q6ejsAgCkC4JZAC06CBjBM1+llh21PPswAD3xYDYYHI+bsiUarH5Pyyj473StiNrg3xsT+Xgk7/xGGfZBKegLdRDJWla/011SdA3YAAA",
+      "width": 4270,
+      "height": 2402,
+      "dateTaken": "2017-08-23T09:48:02.000Z"
     },
     {
       "id": "bodie",
@@ -1833,6 +1893,26 @@
       "dateTaken": "2017-08-23T10:11:57.000Z"
     },
     {
+      "id": "bodie5",
+      "albumSlug": "usa",
+      "filename": "Bodie5.jpg",
+      "r2Key": "usa/bodie5",
+      "title": "",
+      "description": "",
+      "exif": {
+        "camera": "OLYMPUS CORPORATION E-M10MarkII",
+        "lens": "OLYMPUS M.9-18mm F4.0-5.6",
+        "focalLength": "14mm",
+        "aperture": "f/18",
+        "shutter": "1/30",
+        "iso": 200
+      },
+      "blurDataURL": "data:image/webp;base64,UklGRmYAAABXRUJQVlA4IFoAAADQAwCdASoUAA8AP3Ggxlk0q6gjsAgCkC4JYgC7ACIZsxN/Eja1FdAA/mApjvSN2HGXsk8fUYz7mKaVJAKUKOfc/NxBGjtmL6hMpo80OkFjjIXuYsUOWzrAAAA=",
+      "width": 4608,
+      "height": 3456,
+      "dateTaken": "2017-08-23T10:15:23.000Z"
+    },
+    {
       "id": "bodie6",
       "albumSlug": "usa",
       "filename": "Bodie6.jpg",
@@ -1851,6 +1931,26 @@
       "width": 4608,
       "height": 2592,
       "dateTaken": "2017-08-23T10:17:53.000Z"
+    },
+    {
+      "id": "bodiepanorama",
+      "albumSlug": "usa",
+      "filename": "BodiePanorama.jpg",
+      "r2Key": "usa/bodiepanorama",
+      "title": "",
+      "description": "",
+      "exif": {
+        "camera": "OLYMPUS CORPORATION E-M10MarkII",
+        "lens": "OLYMPUS M.9-18mm F4.0-5.6",
+        "focalLength": "9mm",
+        "aperture": "f/18",
+        "shutter": "1/160",
+        "iso": 200
+      },
+      "blurDataURL": "data:image/webp;base64,UklGRlQAAABXRUJQVlA4IEgAAACwAwCdASoUAAYAP3GiyFm0rCgjsAgCkC4JZACdIOZDAwowIO7BiAD6YNFg0z3TEiigkbKBlJuHPU74+Izim6H8M+T0a4r1AAA=",
+      "width": 7124,
+      "height": 2189,
+      "dateTaken": "2017-08-23T10:47:11.000Z"
     }
   ]
 }
