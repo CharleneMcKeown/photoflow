@@ -16,8 +16,9 @@ export function getFullImageUrl(r2Key: string): string {
   return `${R2_PUBLIC_URL}/${r2Key}-full.jpg`;
 }
 
-export function getSrcSet(r2Key: string, format: "webp" | "jpg"): string {
-  return SIZES.map((s) => `${getImageUrl(r2Key, s, format)} ${s}w`).join(", ");
+export function getSrcSet(r2Key: string, format: "webp" | "jpg", originalWidth?: number): string {
+  const sizes = originalWidth ? SIZES.filter((s) => s <= originalWidth) : SIZES;
+  return sizes.map((s) => `${getImageUrl(r2Key, s, format)} ${s}w`).join(", ");
 }
 
 export { SIZES };
