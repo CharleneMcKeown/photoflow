@@ -76,7 +76,7 @@ function loadEnv() {
 
 loadEnv();
 
-const SIZES = [320, 640, 1024, 1920] as const;
+const SIZES = [320, 640, 1024, 1920, 2560] as const;
 const FORMATS = ["webp", "jpg"] as const;
 
 const PHOTOS_SOURCE_DIR = (process.env.PHOTOS_SOURCE_DIR || "~/Pictures/saved")
@@ -89,6 +89,7 @@ const R2_BUCKET_NAME = process.env.R2_BUCKET_NAME!;
 const R2_PUBLIC_URL = process.env.R2_PUBLIC_URL!;
 
 const MANIFEST_PATH = path.resolve(process.cwd(), "content/photos.json");
+const FORCE_REPROCESS = process.argv.includes("--force") || process.argv.includes("-f");
 
 // ---------------------------------------------------------------------------
 // Helpers
@@ -233,8 +234,7 @@ async function processPhoto(
   const existing = manifest.photos.find(
     (p) => p.albumSlug === albumSlug && p.filename === filename
   );
-  if (existing) {
-    const srcStat = fs.statSync(filePath);
+  if (!FORCE_REPROCESS && existing) {
     // Check if the first variant exists in R2 as a proxy for "already uploaded"
     const firstKey = `${r2Key}-320.webp`;
     if (await r2KeyExists(s3, firstKey)) {
@@ -272,17 +272,19 @@ async function processPhoto(
       const contentType = format === "webp" ? "image/webp" : "image/jpeg";
 
       let buffer: Buffer;
+      const webpQuality = size >= 1920 ? 85 : 80;
+      const jpegQuality = size >= 1920 ? 82 : 75;
       if (format === "webp") {
         buffer = await sharp(filePath)
           .rotate()
           .resize(size, resizedHeight)
-          .webp({ quality: 80 })
+          .webp({ quality: webpQuality })
           .toBuffer();
       } else {
         buffer = await sharp(filePath)
           .rotate()
           .resize(size, resizedHeight)
-          .jpeg({ quality: 75 })
+          .jpeg({ quality: jpegQuality })
           .toBuffer();
       }
 
@@ -290,6 +292,15 @@ async function processPhoto(
       console.log(`    ✅ Uploaded ${key}`);
     }
   }
+
+  // Upload full-resolution original as JPEG for "View Full Image"
+  const fullKey = `${r2Key}-full.jpg`;
+  const fullBuffer = await sharp(filePath)
+    .rotate()
+    .jpeg({ quality: 92 })
+    .toBuffer();
+  await uploadToR2(s3, fullKey, fullBuffer, "image/jpeg");
+  console.log(`    ✅ Uploaded ${fullKey} (full resolution)`);
 
   return {
     id: photoId,
@@ -376,6 +387,12 @@ async function editMetadata(manifest: Manifest): Promise<boolean> {
 // ---------------------------------------------------------------------------
 
 async function main() {
+  if (FORCE_REPROCESS) {
+    console.log("🔄 Force reprocess enabled — all photos will be re-uploaded");
+  } else {
+    console.log("ℹ️  Tip: use --force to reprocess all photos");
+    console.log("   argv:", process.argv.slice(2).join(" "));
+  }
   console.log("🔍 Scanning for albums in:", PHOTOS_SOURCE_DIR);
 
   // Validate R2 config
