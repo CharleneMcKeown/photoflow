@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import { useState, useRef, useEffect } from "react";
 import { getSrcSet, getImageUrl } from "@/lib/r2";
 
 interface ResponsivePhotoProps {
@@ -25,7 +25,16 @@ export default function ResponsivePhoto({
   className = "",
 }: ResponsivePhotoProps) {
   const [loaded, setLoaded] = useState(false);
+  const imgRef = useRef<HTMLImageElement>(null);
   const aspectRatio = width / height;
+
+  // Handle the case where the image loads before React hydrates,
+  // meaning onLoad already fired and won't fire again.
+  useEffect(() => {
+    if (imgRef.current?.complete && imgRef.current.naturalWidth > 0) {
+      setLoaded(true);
+    }
+  }, []);
 
   return (
     <div className="relative overflow-hidden" style={{ aspectRatio }}>
@@ -43,6 +52,7 @@ export default function ResponsivePhoto({
         <source type="image/webp" srcSet={getSrcSet(r2Key, "webp", width)} sizes={sizes} />
         <source type="image/jpeg" srcSet={getSrcSet(r2Key, "jpg", width)} sizes={sizes} />
         <img
+          ref={imgRef}
           src={getImageUrl(r2Key, 1024, "jpg")}
           alt={alt}
           width={width}
