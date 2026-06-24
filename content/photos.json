@@ -14,7 +14,7 @@
       "slug": "cats",
       "title": "Cats",
       "coverPhoto": "bigby-jones",
-      "photoCount": 33,
+      "photoCount": 32,
       "dateRange": {
         "from": "2016-09-11T13:37:44.000Z",
         "to": "2026-05-24T18:34:04.000Z"
@@ -24,10 +24,10 @@
       "slug": "kites",
       "title": "Kites",
       "coverPhoto": "p5020527",
-      "photoCount": 10,
+      "photoCount": 18,
       "dateRange": {
         "from": "2019-05-02T13:12:40.000Z",
-        "to": "2026-04-02T14:20:15.000Z"
+        "to": "2026-06-21T05:45:36.000Z"
       }
     },
     {
@@ -1111,6 +1111,166 @@
       "width": 3019,
       "height": 2013,
       "dateTaken": "2026-04-02T14:20:15.000Z"
+    },
+    {
+      "id": "dscf2980",
+      "albumSlug": "kites",
+      "filename": "DSCF2980.jpg",
+      "r2Key": "kites/dscf2980",
+      "title": "",
+      "description": "",
+      "exif": {
+        "camera": "FUJIFILM X-T5",
+        "lens": "XF70-300mmF4-5.6 R LM OIS WR",
+        "focalLength": "278.4mm",
+        "aperture": "f/7.1",
+        "shutter": "1/480",
+        "iso": 250
+      },
+      "blurDataURL": "data:image/webp;base64,UklGRl4AAABXRUJQVlA4IFIAAACwAwCdASoUAA0AP3Ggxlk0q6gjsAgCkC4JQBdgAtNDJqjQCEtI8AD+jMk17vGXCo4UbKmczO8RqUPPZlGJR2rQRKsRywusAOgoMzAATsbLJAAA",
+      "width": 2555,
+      "height": 1703,
+      "dateTaken": "2026-06-21T05:28:54.000Z"
+    },
+    {
+      "id": "dscf2998",
+      "albumSlug": "kites",
+      "filename": "DSCF2998.jpg",
+      "r2Key": "kites/dscf2998",
+      "title": "",
+      "description": "",
+      "exif": {
+        "camera": "FUJIFILM X-T5",
+        "lens": "XF70-300mmF4-5.6 R LM OIS WR",
+        "focalLength": "300mm",
+        "aperture": "f/10",
+        "shutter": "1/400",
+        "iso": 320
+      },
+      "blurDataURL": "data:image/webp;base64,UklGRp4AAABXRUJQVlA4IJIAAADwBACdASoUAB4AP3GexVk0qyejsAgCkC4JYwC90Are0KRiE+y/HfdXvl6yV0KcdoAA/ox2U/sGeVUW2LuV1InDghq397lzml1UYYwKPMJLqbqDfgwP9o1UC+1VH3DfSPSTjaSZs+S8i8v3iqHMZiH4lnsUQtdogvEqDsfQsOwRULKSOBNW/zDRVI3eJ/xfJAAAAA==",
+      "width": 1525,
+      "height": 2287,
+      "dateTaken": "2026-06-21T05:36:07.000Z"
+    },
+    {
+      "id": "dscf3001",
+      "albumSlug": "kites",
+      "filename": "DSCF3001.jpg",
+      "r2Key": "kites/dscf3001",
+      "title": "",
+      "description": "",
+      "exif": {
+        "camera": "FUJIFILM X-T5",
+        "lens": "XF70-300mmF4-5.6 R LM OIS WR",
+        "focalLength": "300mm",
+        "aperture": "f/10",
+        "shutter": "1/300",
+        "iso": 320
+      },
+      "blurDataURL": "data:image/webp;base64,UklGRpQAAABXRUJQVlA4IIgAAABwBQCdASoUAB4AP3GmyFu0rCgkMBgIApAuCWMAuwAxUIyCIQahOycN8BH0Khi+55VfyoLQAP6MXrr9Gcd2I8DJ5eEHBZrTp/whWRMtO7xqy1qBA5elFUIjFeiNGN/yp90A/exjymEgZaZaBh+zIDfZEp/c7ha2tcvzs0iorHPpRwxY520coAAA",
+      "width": 1941,
+      "height": 2911,
+      "dateTaken": "2026-06-21T05:36:43.000Z"
+    },
+    {
+      "id": "dscf3005",
+      "albumSlug": "kites",
+      "filename": "DSCF3005.jpg",
+      "r2Key": "kites/dscf3005",
+      "title": "",
+      "description": "",
+      "exif": {
+        "camera": "FUJIFILM X-T5",
+        "lens": "XF70-300mmF4-5.6 R LM OIS WR",
+        "focalLength": "300mm",
+        "aperture": "f/10",
+        "shutter": "1/340",
+        "iso": 320
+      },
+      "blurDataURL": "data:image/webp;base64,UklGRqgAAABXRUJQVlA4IJwAAADQBACdASoUAB4AP3GexFi0qycjsAgCkC4JYwC/OBq83IEcO4f8269rFPsqimkzQAD+w9ojEuS/y8pw5ZjDWY2Ep743H04Bd1iIyJevp8VV3fcIH6BnMmNGJRKS/dI2tuSCF4D6NDV/PFxHG9/h2S25X/lzvBsI7auIZ7mlR2mlzfnNs2q0JRL0PD3lv5NdTArVjPBVwqHapKgAAAA=",
+      "width": 1850,
+      "height": 2775,
+      "dateTaken": "2026-06-21T05:36:48.000Z"
+    },
+    {
+      "id": "dscf3025",
+      "albumSlug": "kites",
+      "filename": "DSCF3025.jpg",
+      "r2Key": "kites/dscf3025",
+      "title": "",
+      "description": "",
+      "exif": {
+        "camera": "FUJIFILM X-T5",
+        "lens": "XF70-300mmF4-5.6 R LM OIS WR",
+        "focalLength": "300mm",
+        "aperture": "f/14",
+        "shutter": "1/170",
+        "iso": 500
+      },
+      "blurDataURL": "data:image/webp;base64,UklGRqYAAABXRUJQVlA4IJoAAADwBACdASoUAB4AP3Ggxlk0q6ejsAgCkC4JZQC7ABmg7kQzJ5/o1eOIn/I2NV/a2EAA+MYwZvZkTQd32sFILhDvED014+DcTfcfAwBBYoHAX5w88DvAYKLyqoEydH17R2CA2ClCM8zflBg/55FI7Vu2TFju2Sq647B8IOxxGujJMM8XbWbEDrlGPQpZkk4iS0AeAdVF6hNG1AAA",
+      "width": 1205,
+      "height": 1807,
+      "dateTaken": "2026-06-21T05:43:06.000Z"
+    },
+    {
+      "id": "dscf3034",
+      "albumSlug": "kites",
+      "filename": "DSCF3034.jpg",
+      "r2Key": "kites/dscf3034",
+      "title": "",
+      "description": "",
+      "exif": {
+        "camera": "FUJIFILM X-T5",
+        "lens": "XF70-300mmF4-5.6 R LM OIS WR",
+        "focalLength": "300mm",
+        "aperture": "f/14",
+        "shutter": "1/170",
+        "iso": 500
+      },
+      "blurDataURL": "data:image/webp;base64,UklGRmYAAABXRUJQVlA4IFoAAACQAwCdASoUAA0AP3Ggxlk0q6gjsAgCkC4JQAAHwKFTh6zXOdzQAPdqgpAA9CibYGyI5FsscvOPmtbbYFeUDF+5CwgZOFgkCJba6KEu5jvD/z/k3ewsuzrAAAA=",
+      "width": 2814,
+      "height": 1876,
+      "dateTaken": "2026-06-21T05:45:26.000Z"
+    },
+    {
+      "id": "dscf3039",
+      "albumSlug": "kites",
+      "filename": "DSCF3039.jpg",
+      "r2Key": "kites/dscf3039",
+      "title": "",
+      "description": "",
+      "exif": {
+        "camera": "FUJIFILM X-T5",
+        "lens": "XF70-300mmF4-5.6 R LM OIS WR",
+        "focalLength": "300mm",
+        "aperture": "f/14",
+        "shutter": "1/170",
+        "iso": 500
+      },
+      "blurDataURL": "data:image/webp;base64,UklGRmAAAABXRUJQVlA4IFQAAACwAwCdASoUAA0AP3Ggxli0q6ejsAgCkC4JYwAAUrhfAmzjcksmmAD4h16P/OzdZhmMNHxDjFSGOBluOXwnZd5aYapG6YkOBwt9TpRy8/F8MiHAAAA=",
+      "width": 2890,
+      "height": 1927,
+      "dateTaken": "2026-06-21T05:45:35.000Z"
+    },
+    {
+      "id": "dscf3040",
+      "albumSlug": "kites",
+      "filename": "DSCF3040.jpg",
+      "r2Key": "kites/dscf3040",
+      "title": "",
+      "description": "",
+      "exif": {
+        "camera": "FUJIFILM X-T5",
+        "lens": "XF70-300mmF4-5.6 R LM OIS WR",
+        "focalLength": "300mm",
+        "aperture": "f/14",
+        "shutter": "1/170",
+        "iso": 500
+      },
+      "blurDataURL": "data:image/webp;base64,UklGRpQAAABXRUJQVlA4IIgAAADwBACdASoUAB4AP3GixFi0rCcjsAgCkC4JQBdgBFcpi6LUW+F3L0EmRI5NG/ZFbAAA/M1qtyThgIgFMuVaxlAEVfbftrZq7icLlf1QznxyGVoKClt4xN1P7m35ZP39JcEnN1O6xWlAXePIKWM5qCmSQfNaZMH6KhssWass42ooicUSvMuNjPYA",
+      "width": 1339,
+      "height": 2008,
+      "dateTaken": "2026-06-21T05:45:36.000Z"
     },
     {
       "id": "20260125-dscf0533",
