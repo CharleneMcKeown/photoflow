@@ -17,7 +17,7 @@
       "photoCount": 34,
       "dateRange": {
         "from": "2016-09-11T13:37:44.000Z",
-        "to": "2026-05-24T18:34:04.000Z"
+        "to": "2026-08-07T10:54:00.000Z"
       }
     },
     {
@@ -57,7 +57,7 @@
       "photoCount": 7,
       "dateRange": {
         "from": "2026-03-04T13:37:28.000Z",
-        "to": "2026-05-09T08:10:27.000Z"
+        "to": "2026-08-01T02:17:56.000Z"
       }
     },
     {
@@ -920,17 +920,17 @@
       "title": "",
       "description": "",
       "exif": {
-        "camera": null,
-        "lens": null,
-        "focalLength": null,
-        "aperture": null,
-        "shutter": null,
-        "iso": null
+        "camera": "FUJIFILM X-T5",
+        "lens": "XF70-300mmF4-5.6 R LM OIS WR",
+        "focalLength": "81.3mm",
+        "aperture": "f/4.5",
+        "shutter": "1/100",
+        "iso": 1250
       },
-      "blurDataURL": "data:image/webp;base64,UklGRloAAABXRUJQVlA4IE4AAADwAwCdASoUAA0AP3Ggxli0q6ejsAgCkC4JQBYdhCVnjVdhxSRknd2AAP5vBBjJl1tnxRWEojJpkjkjtdBJx8KfrAW945uvdx4mEuajRAA=",
+      "blurDataURL": "data:image/webp;base64,UklGRlwAAABXRUJQVlA4IFAAAADwAwCdASoUAA0AP3Ggxli0q6ejsAgCkC4JQBYdhCVnjVdhxSRknd2AAP5vBBjJl1tnxRWEojJpkjkjtdBJx8KfrAW945uvdx5ikGLJjeAAAA==",
       "width": 6983,
       "height": 4655,
-      "dateTaken": null
+      "dateTaken": "2026-08-07T10:52:12.000Z"
     },
     {
       "id": "dscf3375",
@@ -940,17 +940,17 @@
       "title": "",
       "description": "",
       "exif": {
-        "camera": null,
-        "lens": null,
-        "focalLength": null,
-        "aperture": null,
-        "shutter": null,
-        "iso": null
+        "camera": "FUJIFILM X-T5",
+        "lens": "XF70-300mmF4-5.6 R LM OIS WR",
+        "focalLength": "137mm",
+        "aperture": "f/5",
+        "shutter": "1/125",
+        "iso": 1000
       },
-      "blurDataURL": "data:image/webp;base64,UklGRlgAAABXRUJQVlA4IEwAAADQAwCdASoUAA0AP3Ggx1k0q6gjsAgCkC4JZQDLLCHetX0oZhpAJwAA/stRJrLKPlSoD0Fr+N5uoswF0T8vRekyMh4HmsFhJds8GAAA",
+      "blurDataURL": "data:image/webp;base64,UklGRlgAAABXRUJQVlA4IEwAAADQAwCdASoUAA0AP3Ggxli0q6ejsAgCkC4JZQDLLCHetX0oZhpAJwAA/stRJrLKPlSoD0Fr+N5uoswF0T8vRekyMh4HmsFhJds8GAAA",
       "width": 7048,
       "height": 4699,
-      "dateTaken": null
+      "dateTaken": "2026-08-07T10:54:00.000Z"
     },
     {
       "id": "p5020527",
@@ -2020,17 +2020,17 @@
       "title": "",
       "description": "",
       "exif": {
-        "camera": null,
-        "lens": null,
-        "focalLength": null,
-        "aperture": null,
-        "shutter": null,
-        "iso": null
+        "camera": "FUJIFILM X-T5",
+        "lens": "SIGMA 10-18mm F2.8 DC DN | Contemporary 023",
+        "focalLength": "18mm",
+        "aperture": "f/3.6",
+        "shutter": "1/1700",
+        "iso": 320
       },
-      "blurDataURL": "data:image/webp;base64,UklGRo4AAABXRUJQVlA4IIIAAADwBACdASoUAB4AP3GoyVs0rKikMBgIApAuCWwArDOOwZe8q/XH2WoIxwrwolCdAUAA/Ip1z5imZPbrd9qrzk7MjKr2UVdDlBR+KI1Nsj0ecmKY6kO9em9ln53HWtM7w24M+NjrrFGIPKeJgjc5lZ4jjYZjwJxx4atjFoF52HF8ZAAA",
+      "blurDataURL": "data:image/webp;base64,UklGRowAAABXRUJQVlA4IIAAAADQBACdASoUAB4AP3GqyVs0rSikMBgIApAuCWwArDOOwZe8q/XH2URIvxtnZR1pAAD8inXPmKZk9ut32qvOTsyMqvZRV0OUFH4ojU2yPR5yYpjqQ716b2Wfncda0zvDbgz42OusUYg8p5ZmaW5thdRBTLuxglSCZG5OzruhGmAAAA==",
       "width": 3435,
       "height": 5152,
-      "dateTaken": null
+      "dateTaken": "2026-07-19T09:02:27.000Z"
     },
     {
       "id": "dscf3342",
@@ -2040,17 +2040,17 @@
       "title": "",
       "description": "",
       "exif": {
-        "camera": null,
-        "lens": null,
-        "focalLength": null,
-        "aperture": null,
-        "shutter": null,
-        "iso": null
+        "camera": "FUJIFILM X-T5",
+        "lens": "XF16-50mmF2.8-4.8 R LM WR",
+        "focalLength": "50mm",
+        "aperture": "f/4.8",
+        "shutter": "1/6000",
+        "iso": 500
       },
       "blurDataURL": "data:image/webp;base64,UklGRkYAAABXRUJQVlA4IDoAAAAQAwCdASoUAA0AP3Ggxli0q6gjsAgCkC4JYwCw7BOW7IgA05Krk+oEDAFhxrGMjDak9ofLktFscAAA",
       "width": 5233,
       "height": 3489,
-      "dateTaken": null
+      "dateTaken": "2026-08-01T02:17:56.000Z"
     },
     {
       "id": "rainier-valley-2017",
