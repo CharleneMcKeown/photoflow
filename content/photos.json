@@ -14,7 +14,7 @@
       "slug": "cats",
       "title": "Cats",
       "coverPhoto": "bigby-jones",
-      "photoCount": 32,
+      "photoCount": 34,
       "dateRange": {
         "from": "2016-09-11T13:37:44.000Z",
         "to": "2026-05-24T18:34:04.000Z"
@@ -44,7 +44,7 @@
       "slug": "misc",
       "title": "Misc",
       "coverPhoto": "copenhagen",
-      "photoCount": 4,
+      "photoCount": 5,
       "dateRange": {
         "from": "2016-12-04T17:02:54.000Z",
         "to": "2026-03-22T16:16:38.000Z"
@@ -54,7 +54,7 @@
       "slug": "nature",
       "title": "Nature",
       "coverPhoto": "dscf1465",
-      "photoCount": 5,
+      "photoCount": 7,
       "dateRange": {
         "from": "2026-03-04T13:37:28.000Z",
         "to": "2026-05-09T08:10:27.000Z"
@@ -64,7 +64,7 @@
       "slug": "usa",
       "title": "Usa",
       "coverPhoto": "rainier-valley-2017",
-      "photoCount": 7,
+      "photoCount": 8,
       "dateRange": {
         "from": "2017-07-29T15:49:50.000Z",
         "to": "2017-08-23T10:47:11.000Z"
@@ -911,6 +911,46 @@
       "width": 6850,
       "height": 4567,
       "dateTaken": "2026-05-24T18:34:04.000Z"
+    },
+    {
+      "id": "dscf3366",
+      "albumSlug": "cats",
+      "filename": "DSCF3366.jpg",
+      "r2Key": "cats/dscf3366",
+      "title": "",
+      "description": "",
+      "exif": {
+        "camera": null,
+        "lens": null,
+        "focalLength": null,
+        "aperture": null,
+        "shutter": null,
+        "iso": null
+      },
+      "blurDataURL": "data:image/webp;base64,UklGRloAAABXRUJQVlA4IE4AAADwAwCdASoUAA0AP3Ggxli0q6ejsAgCkC4JQBYdhCVnjVdhxSRknd2AAP5vBBjJl1tnxRWEojJpkjkjtdBJx8KfrAW945uvdx4mEuajRAA=",
+      "width": 6983,
+      "height": 4655,
+      "dateTaken": null
+    },
+    {
+      "id": "dscf3375",
+      "albumSlug": "cats",
+      "filename": "DSCF3375.jpg",
+      "r2Key": "cats/dscf3375",
+      "title": "",
+      "description": "",
+      "exif": {
+        "camera": null,
+        "lens": null,
+        "focalLength": null,
+        "aperture": null,
+        "shutter": null,
+        "iso": null
+      },
+      "blurDataURL": "data:image/webp;base64,UklGRlgAAABXRUJQVlA4IEwAAADQAwCdASoUAA0AP3Ggx1k0q6gjsAgCkC4JZQDLLCHetX0oZhpAJwAA/stRJrLKPlSoD0Fr+N5uoswF0T8vRekyMh4HmsFhJds8GAAA",
+      "width": 7048,
+      "height": 4699,
+      "dateTaken": null
     },
     {
       "id": "p5020527",
@@ -1853,6 +1893,26 @@
       "dateTaken": "2026-03-22T16:16:38.000Z"
     },
     {
+      "id": "dscf3459",
+      "albumSlug": "misc",
+      "filename": "DSCF3459.jpg",
+      "r2Key": "misc/dscf3459",
+      "title": "",
+      "description": "",
+      "exif": {
+        "camera": null,
+        "lens": null,
+        "focalLength": null,
+        "aperture": null,
+        "shutter": null,
+        "iso": null
+      },
+      "blurDataURL": "data:image/webp;base64,UklGRjIAAABXRUJQVlA4ICYAAACwAgCdASoUAA0AP3Ggxli0q6gjsAgCkC4JaQAAeyAA/u4LZcYgAA==",
+      "width": 7728,
+      "height": 5152,
+      "dateTaken": null
+    },
+    {
       "id": "dscf1465",
       "albumSlug": "nature",
       "filename": "DSCF1465.jpg",
@@ -1951,6 +2011,46 @@
       "width": 7728,
       "height": 5152,
       "dateTaken": "2026-05-09T08:10:27.000Z"
+    },
+    {
+      "id": "dscf3188",
+      "albumSlug": "nature",
+      "filename": "DSCF3188.jpg",
+      "r2Key": "nature/dscf3188",
+      "title": "",
+      "description": "",
+      "exif": {
+        "camera": null,
+        "lens": null,
+        "focalLength": null,
+        "aperture": null,
+        "shutter": null,
+        "iso": null
+      },
+      "blurDataURL": "data:image/webp;base64,UklGRo4AAABXRUJQVlA4IIIAAADwBACdASoUAB4AP3GoyVs0rKikMBgIApAuCWwArDOOwZe8q/XH2WoIxwrwolCdAUAA/Ip1z5imZPbrd9qrzk7MjKr2UVdDlBR+KI1Nsj0ecmKY6kO9em9ln53HWtM7w24M+NjrrFGIPKeJgjc5lZ4jjYZjwJxx4atjFoF52HF8ZAAA",
+      "width": 3435,
+      "height": 5152,
+      "dateTaken": null
+    },
+    {
+      "id": "dscf3342",
+      "albumSlug": "nature",
+      "filename": "DSCF3342.jpg",
+      "r2Key": "nature/dscf3342",
+      "title": "",
+      "description": "",
+      "exif": {
+        "camera": null,
+        "lens": null,
+        "focalLength": null,
+        "aperture": null,
+        "shutter": null,
+        "iso": null
+      },
+      "blurDataURL": "data:image/webp;base64,UklGRkYAAABXRUJQVlA4IDoAAAAQAwCdASoUAA0AP3Ggxli0q6gjsAgCkC4JYwCw7BOW7IgA05Krk+oEDAFhxrGMjDak9ofLktFscAAA",
+      "width": 5233,
+      "height": 3489,
+      "dateTaken": null
     },
     {
       "id": "rainier-valley-2017",
@@ -2091,6 +2191,26 @@
       "width": 7124,
       "height": 2189,
       "dateTaken": "2017-08-23T10:47:11.000Z"
+    },
+    {
+      "id": "dscf3248",
+      "albumSlug": "usa",
+      "filename": "DSCF3248.jpg",
+      "r2Key": "usa/dscf3248",
+      "title": "",
+      "description": "",
+      "exif": {
+        "camera": null,
+        "lens": null,
+        "focalLength": null,
+        "aperture": null,
+        "shutter": null,
+        "iso": null
+      },
+      "blurDataURL": "data:image/webp;base64,UklGRlYAAABXRUJQVlA4IEoAAABwAwCdASoUAA0AP3Ggxli0q6ejsAgCkC4JbADE2CIChh9hj4AA/tjhYY8qcQKPMaIVFppSgpu7OFewAeL547pVLnIIm+KO+4TAAA==",
+      "width": 6087,
+      "height": 4058,
+      "dateTaken": null
     }
   ]
 }
