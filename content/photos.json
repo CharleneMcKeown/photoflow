@@ -4,7 +4,7 @@
       "slug": "birds",
       "title": "Birds",
       "coverPhoto": "monterey",
-      "photoCount": 11,
+      "photoCount": 12,
       "dateRange": {
         "from": "2017-08-25T15:06:59.000Z",
         "to": "2026-08-24T09:44:46.000Z"
@@ -13,7 +13,7 @@
     {
       "slug": "cats",
       "title": "Cats",
-      "coverPhoto": "dscf3375",
+      "coverPhoto": "bigby-jones",
       "photoCount": 34,
       "dateRange": {
         "from": "2016-09-11T13:37:44.000Z",
@@ -53,8 +53,8 @@
     {
       "slug": "nature",
       "title": "Nature",
-      "coverPhoto": "dscf3578",
-      "photoCount": 14,
+      "coverPhoto": "dscf1465",
+      "photoCount": 13,
       "dateRange": {
         "from": "2026-03-04T13:37:28.000Z",
         "to": "2026-08-24T11:36:32.000Z"
@@ -271,6 +271,26 @@
       "width": 3110,
       "height": 2073,
       "dateTaken": "2026-06-02T10:07:09.000Z"
+    },
+    {
+      "id": "dscf3342",
+      "albumSlug": "birds",
+      "filename": "DSCF3342.jpg",
+      "r2Key": "birds/dscf3342",
+      "title": "Swan",
+      "description": "Marsworth Reservoir",
+      "exif": {
+        "camera": "FUJIFILM X-T5",
+        "lens": "XF16-50mmF2.8-4.8 R LM WR",
+        "focalLength": "50mm",
+        "aperture": "f/4.8",
+        "shutter": "1/6000",
+        "iso": 500
+      },
+      "blurDataURL": "data:image/webp;base64,UklGRkYAAABXRUJQVlA4IDoAAAAQAwCdASoUAA0AP3Ggxli0q6gjsAgCkC4JYwCw7BOW7IgA05Krk+oEDAFhxrGMjDak9ofLktFscAAA",
+      "width": 5233,
+      "height": 3489,
+      "dateTaken": "2026-08-01T02:17:56.000Z"
     },
     {
       "id": "dscf3539",
@@ -2071,26 +2091,6 @@
       "width": 3435,
       "height": 5152,
       "dateTaken": "2026-07-19T09:02:27.000Z"
-    },
-    {
-      "id": "dscf3342",
-      "albumSlug": "nature",
-      "filename": "DSCF3342.jpg",
-      "r2Key": "nature/dscf3342",
-      "title": "",
-      "description": "",
-      "exif": {
-        "camera": "FUJIFILM X-T5",
-        "lens": "XF16-50mmF2.8-4.8 R LM WR",
-        "focalLength": "50mm",
-        "aperture": "f/4.8",
-        "shutter": "1/6000",
-        "iso": 500
-      },
-      "blurDataURL": "data:image/webp;base64,UklGRkYAAABXRUJQVlA4IDoAAAAQAwCdASoUAA0AP3Ggxli0q6gjsAgCkC4JYwCw7BOW7IgA05Krk+oEDAFhxrGMjDak9ofLktFscAAA",
-      "width": 5233,
-      "height": 3489,
-      "dateTaken": "2026-08-01T02:17:56.000Z"
     },
     {
       "id": "dscf3533",
