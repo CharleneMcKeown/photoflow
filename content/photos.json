@@ -2353,26 +2353,6 @@
       "dateTaken": "2026-08-24T18:08:09.000Z"
     },
     {
-      "id": "dscf3639-2",
-      "albumSlug": "nature",
-      "filename": "DSCF3639-2.jpg",
-      "r2Key": "nature/dscf3639-2",
-      "title": "",
-      "description": "",
-      "exif": {
-        "camera": "FUJIFILM X-T5",
-        "lens": "XF16-50mmF2.8-4.8 R LM WR",
-        "focalLength": "17.5mm",
-        "aperture": "f/4",
-        "shutter": "1/240",
-        "iso": 250
-      },
-      "blurDataURL": "data:image/webp;base64,UklGRlIAAABXRUJQVlA4IEYAAABQAwCdASoUAA0AP3Ggxli0q6ejsAgCkC4JYgCw7AL9cq7qmAD50tsR4/t3LJs/bGLCdOtFHQwjGyw//ncpqG9nJ2oHAAAA",
-      "width": 5934,
-      "height": 3956,
-      "dateTaken": "2026-08-25T12:01:34.000Z"
-    },
-    {
       "id": "dscf3639",
       "albumSlug": "nature",
       "filename": "DSCF3639.jpg",
@@ -2397,8 +2377,8 @@
       "albumSlug": "nature",
       "filename": "DSCF3698.jpg",
       "r2Key": "nature/dscf3698",
-      "title": "",
-      "description": "",
+      "title": "Marsworth Reservoir",
+      "description": "View of Marsworth Reservoir",
       "exif": {
         "camera": "FUJIFILM X-T5",
         "lens": "XF16-50mmF2.8-4.8 R LM WR",
@@ -2417,8 +2397,8 @@
       "albumSlug": "nature",
       "filename": "DSCF3704.jpg",
       "r2Key": "nature/dscf3704",
-      "title": "",
-      "description": "",
+      "title": "Strangford Lough",
+      "description": "View from Castle Espie Nature Reserve",
       "exif": {
         "camera": "FUJIFILM X-T5",
         "lens": "XF70-300mmF4-5.6 R LM OIS WR",
@@ -2437,8 +2417,8 @@
       "albumSlug": "nature",
       "filename": "DSCF3803.jpg",
       "r2Key": "nature/dscf3803",
-      "title": "",
-      "description": "",
+      "title": "Owl butterfly",
+      "description": "Seaford Butterfly House",
       "exif": {
         "camera": "FUJIFILM X-T5",
         "lens": "XF70-300mmF4-5.6 R LM OIS WR",
@@ -2477,8 +2457,8 @@
       "albumSlug": "nature",
       "filename": "DSCF3821.jpg",
       "r2Key": "nature/dscf3821",
-      "title": "",
-      "description": "",
+      "title": "Owl butterfly caterpillar",
+      "description": "Seaford Butterfly House",
       "exif": {
         "camera": "FUJIFILM X-T5",
         "lens": "XF70-300mmF4-5.6 R LM OIS WR",
@@ -2497,8 +2477,8 @@
       "albumSlug": "nature",
       "filename": "DSCF3825.jpg",
       "r2Key": "nature/dscf3825",
-      "title": "",
-      "description": "",
+      "title": "Malachite butterfly",
+      "description": "Seaford Butterfly House",
       "exif": {
         "camera": "FUJIFILM X-T5",
         "lens": "XF70-300mmF4-5.6 R LM OIS WR",
@@ -2557,8 +2537,8 @@
       "albumSlug": "nature",
       "filename": "DSCF3864.jpg",
       "r2Key": "nature/dscf3864",
-      "title": "",
-      "description": "",
+      "title": "Owl butterfly",
+      "description": "Seaford Butterfly House",
       "exif": {
         "camera": "FUJIFILM X-T5",
         "lens": "XF70-300mmF4-5.6 R LM OIS WR",
@@ -2577,8 +2557,8 @@
       "albumSlug": "nature",
       "filename": "DSCF3867.jpg",
       "r2Key": "nature/dscf3867",
-      "title": "",
-      "description": "",
+      "title": "Owl butterfly",
+      "description": "Seaford Butterfly House",
       "exif": {
         "camera": "FUJIFILM X-T5",
         "lens": "XF70-300mmF4-5.6 R LM OIS WR",
@@ -2597,8 +2577,8 @@
       "albumSlug": "nature",
       "filename": "DSCF3870.jpg",
       "r2Key": "nature/dscf3870",
-      "title": "",
-      "description": "",
+      "title": "Owl butterfly",
+      "description": "Seaford Butterfly House",
       "exif": {
         "camera": "FUJIFILM X-T5",
         "lens": "XF70-300mmF4-5.6 R LM OIS WR",
