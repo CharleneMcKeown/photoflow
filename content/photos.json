@@ -2573,26 +2573,6 @@
       "dateTaken": "2026-08-24T18:08:09.000Z"
     },
     {
-      "id": "dscf3639-2",
-      "albumSlug": "nature",
-      "filename": "DSCF3639-2.jpg",
-      "r2Key": "nature/dscf3639-2",
-      "title": "",
-      "description": "",
-      "exif": {
-        "camera": "FUJIFILM X-T5",
-        "lens": "XF16-50mmF2.8-4.8 R LM WR",
-        "focalLength": "17.5mm",
-        "aperture": "f/4",
-        "shutter": "1/240",
-        "iso": 250
-      },
-      "blurDataURL": "data:image/webp;base64,UklGRlIAAABXRUJQVlA4IEYAAABQAwCdASoUAA0AP3Ggxli0q6ejsAgCkC4JYgCw7AL9cq7qmAD50tsR4/t3LJs/bGLCdOtFHQwjGyw//ncpqG9nJ2oHAAAA",
-      "width": 5934,
-      "height": 3956,
-      "dateTaken": "2026-08-25T12:01:34.000Z"
-    },
-    {
       "id": "dscf3639",
       "albumSlug": "nature",
       "filename": "DSCF3639.jpg",
