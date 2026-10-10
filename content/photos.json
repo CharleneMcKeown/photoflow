@@ -43,20 +43,20 @@
     {
       "slug": "misc",
       "title": "Misc",
-      "coverPhoto": "copenhagen",
-      "photoCount": 6,
+      "coverPhoto": "moonyshot",
+      "photoCount": 7,
       "dateRange": {
-        "from": "2016-12-04T17:02:54.000Z",
+        "from": "2016-10-16T21:04:05.000Z",
         "to": "2026-08-24T11:06:11.000Z"
       }
     },
     {
       "slug": "nature",
       "title": "Nature",
-      "coverPhoto": "dscf1465",
-      "photoCount": 29,
+      "coverPhoto": "swans",
+      "photoCount": 31,
       "dateRange": {
-        "from": "2026-03-04T13:37:28.000Z",
+        "from": "2017-01-22T12:28:42.000Z",
         "to": "2026-09-19T12:43:20.000Z"
       }
     },
@@ -2113,6 +2113,26 @@
       "dateTaken": "2026-01-29T08:55:30.000Z"
     },
     {
+      "id": "moonyshot",
+      "albumSlug": "misc",
+      "filename": "MoonyShot.jpg",
+      "r2Key": "misc/moonyshot",
+      "title": "",
+      "description": "",
+      "exif": {
+        "camera": "OLYMPUS CORPORATION E-M10MarkII",
+        "lens": "OLYMPUS M.40-150mm F4.0-5.6 R",
+        "focalLength": "150mm",
+        "aperture": "f/6.3",
+        "shutter": "1/1250",
+        "iso": 200
+      },
+      "blurDataURL": "data:image/webp;base64,UklGRjgAAABXRUJQVlA4ICwAAACwAgCdASoUAA0AP3Ggx1k0q6gjsAgCkC4JaQAAeyAA/u3hUA3mGj+BvkyAAA==",
+      "width": 1929,
+      "height": 1233,
+      "dateTaken": "2016-10-16T21:04:05.000Z"
+    },
+    {
       "id": "copenhagen",
       "albumSlug": "misc",
       "filename": "Copenhagen.jpg",
@@ -2231,6 +2251,46 @@
       "width": 7728,
       "height": 5152,
       "dateTaken": null
+    },
+    {
+      "id": "swans",
+      "albumSlug": "nature",
+      "filename": "swans.jpg",
+      "r2Key": "nature/swans",
+      "title": "",
+      "description": "",
+      "exif": {
+        "camera": "OLYMPUS CORPORATION E-M10MarkII",
+        "lens": "OLYMPUS M.40-150mm F4.0-5.6 R",
+        "focalLength": "40mm",
+        "aperture": "f/4",
+        "shutter": "1/1600",
+        "iso": 500
+      },
+      "blurDataURL": "data:image/webp;base64,UklGRm4AAABXRUJQVlA4IGIAAACwAwCdASoUAA8AP3Ggxlk0q6ejsAgCkC4JYgCdABszWtEYUOvNEADyYsTpdVt3cu/mmglHMTvPJfmao1bif7fABg1ktn4GeUFDUCaPEQYz4uo2HhNVP/aL87I+dMMXJsAAAA==",
+      "width": 4608,
+      "height": 3456,
+      "dateTaken": "2017-01-22T12:28:42.000Z"
+    },
+    {
+      "id": "canal2",
+      "albumSlug": "nature",
+      "filename": "canal2.jpg",
+      "r2Key": "nature/canal2",
+      "title": "",
+      "description": "",
+      "exif": {
+        "camera": "OLYMPUS CORPORATION E-M10MarkII",
+        "lens": "OLYMPUS M.14-42mm F3.5-5.6 EZ",
+        "focalLength": "14mm",
+        "aperture": "f/3.5",
+        "shutter": "1/1600",
+        "iso": 200
+      },
+      "blurDataURL": "data:image/webp;base64,UklGRlwAAABXRUJQVlA4IFAAAADQAwCdASoUAA8AP3Ggxli0q6ejsAgCkC4JYgCdIBgCm2tc59MyEsAA8bHIJNw/wF8dJ8006tzVUi2EnbosJM5ooijqvsHD61nMndkus+AAAA==",
+      "width": 4608,
+      "height": 3456,
+      "dateTaken": "2017-01-22T12:33:19.000Z"
     },
     {
       "id": "dscf1465",
