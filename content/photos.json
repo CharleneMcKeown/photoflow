@@ -4,20 +4,20 @@
       "slug": "birds",
       "title": "Birds",
       "coverPhoto": "monterey",
-      "photoCount": 25,
+      "photoCount": 30,
       "dateRange": {
         "from": "2017-08-25T15:06:59.000Z",
-        "to": "2026-10-03T16:24:47.000Z"
+        "to": "2026-10-17T09:50:51.000Z"
       }
     },
     {
       "slug": "cats",
       "title": "Cats",
-      "coverPhoto": "bigby-jones",
-      "photoCount": 34,
+      "coverPhoto": "dscf2223-copy",
+      "photoCount": 35,
       "dateRange": {
         "from": "2016-09-11T13:37:44.000Z",
-        "to": "2026-08-07T10:54:00.000Z"
+        "to": "2026-10-16T08:46:29.000Z"
       }
     },
     {
@@ -54,10 +54,10 @@
       "slug": "nature",
       "title": "Nature",
       "coverPhoto": "swans",
-      "photoCount": 31,
+      "photoCount": 33,
       "dateRange": {
         "from": "2017-01-22T12:28:42.000Z",
-        "to": "2026-09-19T12:43:20.000Z"
+        "to": "2026-10-17T09:41:53.000Z"
       }
     },
     {
@@ -571,6 +571,106 @@
       "width": 5229,
       "height": 3486,
       "dateTaken": "2026-10-03T16:24:47.000Z"
+    },
+    {
+      "id": "dscf4080",
+      "albumSlug": "birds",
+      "filename": "DSCF4080.jpg",
+      "r2Key": "birds/dscf4080",
+      "title": "",
+      "description": "",
+      "exif": {
+        "camera": "FUJIFILM X-T5",
+        "lens": "XF70-300mmF4-5.6 R LM OIS WR",
+        "focalLength": "191.6mm",
+        "aperture": "f/11",
+        "shutter": "1/480",
+        "iso": 400
+      },
+      "blurDataURL": "data:image/webp;base64,UklGRkoAAABXRUJQVlA4ID4AAABwAwCdASoUAA0AP3Ggxlk0q6ejsAgCkC4JZACdMoAB0iWisWAA/FL1sb8Pd4NOdyQBGUDlc0HydbOhODAAAA==",
+      "width": 2570,
+      "height": 1713,
+      "dateTaken": "2026-10-17T09:01:33.000Z"
+    },
+    {
+      "id": "dscf4141",
+      "albumSlug": "birds",
+      "filename": "DSCF4141.jpg",
+      "r2Key": "birds/dscf4141",
+      "title": "",
+      "description": "",
+      "exif": {
+        "camera": "FUJIFILM X-T5",
+        "lens": "XF70-300mmF4-5.6 R LM OIS WR",
+        "focalLength": "300mm",
+        "aperture": "f/11",
+        "shutter": "1/2500",
+        "iso": 4000
+      },
+      "blurDataURL": "data:image/webp;base64,UklGRkYAAABXRUJQVlA4IDoAAADQAgCdASoUAA0AP3Ggxli0q6ejsAgCkC4JQBYdgGiAADrkRtN9tPlolpGqPz8qn2AIVbWG9WmISAAA",
+      "width": 4594,
+      "height": 3063,
+      "dateTaken": "2026-10-17T09:48:18.000Z"
+    },
+    {
+      "id": "dscf4142",
+      "albumSlug": "birds",
+      "filename": "DSCF4142.jpg",
+      "r2Key": "birds/dscf4142",
+      "title": "",
+      "description": "",
+      "exif": {
+        "camera": "FUJIFILM X-T5",
+        "lens": "XF70-300mmF4-5.6 R LM OIS WR",
+        "focalLength": "300mm",
+        "aperture": "f/11",
+        "shutter": "1/1000",
+        "iso": 4000
+      },
+      "blurDataURL": "data:image/webp;base64,UklGRmIAAABXRUJQVlA4IFYAAACQAwCdASoUAA0AP3Ggxli0q6ejsAgCkC4JZACdMoSA2APKn1YAAMpzjG4YwULK/bprLt28E4GqM3mMOmYDuxPyMbmkWi8LRdWyNNclWI4EhVGcuGAAAA==",
+      "width": 7728,
+      "height": 5152,
+      "dateTaken": "2026-10-17T09:48:53.000Z"
+    },
+    {
+      "id": "dscf4151",
+      "albumSlug": "birds",
+      "filename": "DSCF4151.jpg",
+      "r2Key": "birds/dscf4151",
+      "title": "",
+      "description": "",
+      "exif": {
+        "camera": "FUJIFILM X-T5",
+        "lens": "XF70-300mmF4-5.6 R LM OIS WR",
+        "focalLength": "70mm",
+        "aperture": "f/11",
+        "shutter": "1/3200",
+        "iso": 4000
+      },
+      "blurDataURL": "data:image/webp;base64,UklGRmoAAABXRUJQVlA4IF4AAADwAwCdASoUAA0AP3Gixlk0rCejsAgCkC4JYgCdIIp6A5/8Am2a98wwAMr+ByXGzW5y2tAh0S7Chs8nonkRwpywS6bzfHgQsH1SpnB6xc+ckSu/KHPPEe/D65oCCzQA",
+      "width": 7728,
+      "height": 5152,
+      "dateTaken": "2026-10-17T09:49:56.000Z"
+    },
+    {
+      "id": "dscf4157",
+      "albumSlug": "birds",
+      "filename": "DSCF4157.jpg",
+      "r2Key": "birds/dscf4157",
+      "title": "",
+      "description": "",
+      "exif": {
+        "camera": "FUJIFILM X-T5",
+        "lens": "XF70-300mmF4-5.6 R LM OIS WR",
+        "focalLength": "278.4mm",
+        "aperture": "f/11",
+        "shutter": "1/3200",
+        "iso": 4000
+      },
+      "blurDataURL": "data:image/webp;base64,UklGRlgAAABXRUJQVlA4IEwAAACwAwCdASoUAA0AP3Ggxli0q6ejsAgCkC4JZACdABPNLAj0kSARgAD517uoIyqZuGscogSAz9focGWwbHJ+loU+CrqJtIYLPPkwAAAA",
+      "width": 6136,
+      "height": 4091,
+      "dateTaken": "2026-10-17T09:50:51.000Z"
     },
     {
       "id": "bigby-jones",
@@ -1251,6 +1351,26 @@
       "width": 7048,
       "height": 4699,
       "dateTaken": "2026-08-07T10:54:00.000Z"
+    },
+    {
+      "id": "dscf4054",
+      "albumSlug": "cats",
+      "filename": "DSCF4054.jpg",
+      "r2Key": "cats/dscf4054",
+      "title": "",
+      "description": "",
+      "exif": {
+        "camera": "FUJIFILM X-T5",
+        "lens": "XF70-300mmF4-5.6 R LM OIS WR",
+        "focalLength": "300mm",
+        "aperture": "f/5.6",
+        "shutter": "1/10",
+        "iso": 3200
+      },
+      "blurDataURL": "data:image/webp;base64,UklGRmYAAABXRUJQVlA4IFoAAADwAwCdASoUAA0AP3Ggxli0q6ejsAgCkC4JaAAAV8gKf5HuZ0c+TmwAAP7L4RNHMQGIOrt+hkF1ZfZTfYOa2zsy8Oo8D5xS4hgVQC7NW5+6gGIxFAt2qa0GAAA=",
+      "width": 7728,
+      "height": 5152,
+      "dateTaken": "2026-10-16T08:46:29.000Z"
     },
     {
       "id": "p5020527",
@@ -2851,6 +2971,66 @@
       "width": 3527,
       "height": 2351,
       "dateTaken": "2026-09-19T12:43:20.000Z"
+    },
+    {
+      "id": "dscf4067",
+      "albumSlug": "nature",
+      "filename": "DSCF4067.jpg",
+      "r2Key": "nature/dscf4067",
+      "title": "",
+      "description": "",
+      "exif": {
+        "camera": "FUJIFILM X-T5",
+        "lens": "XF70-300mmF4-5.6 R LM OIS WR",
+        "focalLength": "70mm",
+        "aperture": "f/11",
+        "shutter": "1/280",
+        "iso": 400
+      },
+      "blurDataURL": "data:image/webp;base64,UklGRkoAAABXRUJQVlA4ID4AAAAwAwCdASoUAA0AP3Ggxli0q6gjsAgCkC4JZACdAAMV9OAgANY53u6vVF8zpYMIrk+IhdiPgEFuDwMoi2QAAA==",
+      "width": 6169,
+      "height": 4113,
+      "dateTaken": "2026-10-17T08:56:26.000Z"
+    },
+    {
+      "id": "dscf4089",
+      "albumSlug": "nature",
+      "filename": "DSCF4089.jpg",
+      "r2Key": "nature/dscf4089",
+      "title": "",
+      "description": "",
+      "exif": {
+        "camera": "FUJIFILM X-T5",
+        "lens": "XF70-300mmF4-5.6 R LM OIS WR",
+        "focalLength": "70mm",
+        "aperture": "f/11",
+        "shutter": "1/250",
+        "iso": 400
+      },
+      "blurDataURL": "data:image/webp;base64,UklGRlgAAABXRUJQVlA4IEwAAABwAwCdASoUAA0AP3Ggxlk0q6ejsAgCkC4JQBfnBD0Cm0PM7gAA/IvOQ9hMH7xTUOQ2f+Jgj6v8QIXGXayARyUqlJdgnTYQlE3CgyIA",
+      "width": 7728,
+      "height": 5152,
+      "dateTaken": "2026-10-17T09:07:50.000Z"
+    },
+    {
+      "id": "dscf4116",
+      "albumSlug": "nature",
+      "filename": "DSCF4116.jpg",
+      "r2Key": "nature/dscf4116",
+      "title": "",
+      "description": "",
+      "exif": {
+        "camera": "FUJIFILM X-T5",
+        "lens": "XF70-300mmF4-5.6 R LM OIS WR",
+        "focalLength": "70mm",
+        "aperture": "f/11",
+        "shutter": "1/280",
+        "iso": 400
+      },
+      "blurDataURL": "data:image/webp;base64,UklGRmAAAABXRUJQVlA4IFQAAADwAwCdASoUAA0AP3Gixli0rCejsAgCkC4JQBajUABsDgBGpc78UuagAPY664LDru2ExELazIy2kb3V8wi0mhGJwn48wXZPbdQkgDqoBFd1ONJWAAA=",
+      "width": 7728,
+      "height": 5152,
+      "dateTaken": "2026-10-17T09:41:53.000Z"
     },
     {
       "id": "rainier-valley-2017",
